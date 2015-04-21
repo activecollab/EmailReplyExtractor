@@ -106,9 +106,8 @@
      *
      * @param  array   $splitters
      * @param  integer $trim_previous_lines
-     * @return boolean
      */
-    function stripOriginalMessage(array &$splitters, $trim_previous_lines = 0) {
+    protected function stripOriginalMessage(array &$splitters, $trim_previous_lines = 0) {
       $stripped = [];
 
       foreach ($this->body as $line) {
@@ -117,21 +116,31 @@
             if ($trim_previous_lines == 0) {
               $this->body = $stripped;
             } else {
-              $this->body= array_slice($stripped, 0, count($stripped) - $trim_previous_lines);
+              $this->body = array_slice($stripped, 0, count($stripped) - $trim_previous_lines);
             }
 
-            $last_line = trim($this->body[count($this->body) - 1]);
-            if (in_array($last_line, [ '>', '&gt;', '> **', '&gt; **' ])) {
-              $this->body = array_slice($this->body, 0, count($this->body) - 1); // sometimes > sign appears in front of reply so we need to strip it
-            }
-
-            return true;
+            $this->stripEmptyLinesFromTheEnd();
+            return;
           }
         }
         $stripped[] = $line;
       }
+    }
 
-      return true;
+    /**
+     * Remove empty or quote lines from the end of the mail
+     */
+    protected function stripEmptyLinesFromTheEnd()
+    {
+      for ($i = count($this->body) - 1; $i >= 0; $i--) {
+        $line = trim($this->body[$i]);
+
+        if (empty($line) || in_array($line, [ '>', '&gt;', '> **', '&gt; **' ])) {
+          unset($this->body[$i]);
+        } else {
+          break;
+        }
+      }
     }
 
     /**
@@ -238,7 +247,8 @@
 
       for ($x = 0, $lines_count = count($this->body); $x < $lines_count; $x++) {
         $line = $this->body[$x];
-        if ((mb_substr($line,0,1) == '>') || (mb_substr($line,0,4) == '&gt;')) {
+
+        if (mb_substr($line, 0, 1) == '>' || mb_substr($line, 0, 4) == '&gt;') {
           if (!$block_quote_opened) {
             $lines[] = "<blockquote>\n";
             $block_quote_opened = true;
