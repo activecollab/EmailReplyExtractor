@@ -17,25 +17,20 @@
     const OUTLOOK = 'Outlook';
     const YAHOO = 'Yahoo';
 
-    public static function extract($path)
+    /**
+     * Parse input file and return reply
+     *
+     * @param  string $path
+     * @return string
+     */
+    public static function extractReply($path)
     {
       $parser = new Parser();
       $parser->setPath($path);
 
       $extractor = self::getExtractor(self::detectMailer(self::getHeadersRelevantForMailerDetection($parser)), $parser);
 
-      print get_class($extractor) . " (" . basename($path) . "):\n";
-      print (string) $extractor . "\n-------------------------\n";
-    }
-
-    public static function extractReply($path)
-    {
-
-    }
-
-    public static function extractForward($path)
-    {
-
+      return (string) $extractor;
     }
 
     /**
@@ -116,7 +111,7 @@
      * @param  string  $niddle
      * @return boolean
      */
-    public static function str_starts_with($string, $niddle) {
+    public static function strStartsWith($string, $niddle) {
       return substr($string, 0, strlen($niddle)) == $niddle;
     }
   }

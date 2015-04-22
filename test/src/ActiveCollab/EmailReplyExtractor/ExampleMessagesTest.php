@@ -20,7 +20,7 @@
         }
 
         if ($file->isFile() && $file->getExtension() == 'eml') {
-          EmailReplyExtractor::extract($file->getPathname());
+          $this->assertEquals('Email Reply', EmailReplyExtractor::extractReply($file->getPathname()));
         }
       }
     }

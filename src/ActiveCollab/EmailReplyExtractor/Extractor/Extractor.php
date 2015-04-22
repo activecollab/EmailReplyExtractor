@@ -86,8 +86,9 @@
     }
 
     /**
-     * Return splitters
+     * Return original message splitters
      *
+     * @todo
      * @return array
      */
     protected function getOriginalMessageSplitters()
@@ -95,8 +96,11 @@
       return [
         '-- REPLY ABOVE THIS LINE --',
         '-- REPLY ABOVE THIS LINE',
+        'REPLY ABOVE THIS LINE --',
         '-- Reply above this line --',
         '-----Original Message-----',
+        '----- Original Message -----',
+        '-- ODGOVORI ODJE --',
         '-------- Original message --------'
       ];
     }
@@ -285,43 +289,40 @@
     }
 
     /**
-     * Convert HTML to plain text (email style)
-     *
-     * @param string $html
-     * @param boolean $clean
+     * @param  string $html
      * @return string
      */
-    static function toPlainText($html, $clean = false) {
+    static function toPlainText($html) {
       $plain = (string) $html;
 
       // strip slashes
       $plain = (string) trim(stripslashes($plain));
 
       // strip unnecessary characters
-      $plain = (string) preg_replace(array(
-      "/\r/", // strip carriage returns
-      "/<script[^>]*>.*?<\/script>/si", // strip immediately, because we don't need any data from it
-      "/<style[^>]*>.*?<\/style>/is", // strip immediately, because we don't need any data from it
-      "/style=\".*?\"/"   //was: '/style=\"[^\"]*/'
-      ), "", $plain);
+      $plain = (string) preg_replace([
+        "/\r/", // strip carriage returns
+        "/<script[^>]*>.*?<\/script>/si", // strip immediately, because we don't need any data from it
+        "/<style[^>]*>.*?<\/style>/is", // strip immediately, because we don't need any data from it
+        "/style=\".*?\"/"   //was: '/style=\"[^\"]*/'
+      ], "", $plain);
 
       // entities to convert (this is not a definite list)
-      $entities = array(
-        ' '     => array('&nbsp;', '&#160;'),
-        '"'     => array('&quot;', '&rdquo;', '&ldquo;', '&#8220;', '&#8221;', '&#147;', '&#148;'),
-        '\''    => array('&apos;', '&rsquo;', '&lsquo;', '&#8216;', '&#8217;'),
-        '>'     => array('&gt;'),
-        '<'     => array('&lt;'),
-        '&'     => array('&amp;', '&#38;'),
-        '(c)'   => array('&copy;', '&#169;'),
-        '(R)'   => array('&reg;', '&#174;'),
-        '(tm)'  => array('&trade;', '&#8482;', '&#153;'),
-        '--'    => array('&mdash;', '&#151;', '&#8212;'),
-        '-'     => array('&ndash;', '&minus;', '&#8211;', '&#8722;'),
-        '*'     => array('&bull;', '&#149;', '&#8226;'),
-        '�'     => array('&pound;', '&#163;'),
-        'EUR'   => array('&euro;', '&#8364;')
-      );
+      $entities = [
+        ' '     => [ '&nbsp;', '&#160;' ],
+        '"'     => [ '&quot;', '&rdquo;', '&ldquo;', '&#8220;', '&#8221;', '&#147;', '&#148;' ],
+        '\''    => [ '&apos;', '&rsquo;', '&lsquo;', '&#8216;', '&#8217;' ],
+        '>'     => [ '&gt;' ],
+        '<'     => [ '&lt;' ],
+        '&'     => [ '&amp;', '&#38;' ],
+        '(c)'   => [ '&copy;', '&#169;' ],
+        '(R)'   => [ '&reg;', '&#174;' ],
+        '(tm)'  => [ '&trade;', '&#8482;', '&#153;' ],
+        '--'    => [ '&mdash;', '&#151;', '&#8212;' ],
+        '-'     => [ '&ndash;', '&minus;', '&#8211;', '&#8722;' ],
+        '*'     => [ '&bull;', '&#149;', '&#8226;' ],
+        '�'     => [ '&pound;', '&#163;' ],
+        'EUR'   => [ '&euro;', '&#8364;' ]
+      ];
 
       // convert specified entities
       foreach ($entities as $character => $entity) {
@@ -329,9 +330,7 @@
       }
 
       // strip other not previously converted entities
-      $plain = (string) preg_replace(array(
-      '/&[^&;]+;/si',
-      ), "", $plain);
+      $plain = (string) preg_replace([ '/&[^&;]+;/si' ], "", $plain);
 
       // <p> converts to 2 newlines
       $plain = (string) preg_replace('/<p[^>]*>/i', "\n\n", $plain); // <p>
@@ -341,8 +340,8 @@
         return "\n\n" . mb_strtoupper($matches[1]) . "\n\n";
       }, $plain); // <h1-h6>
 
-      $plain = (string) preg_replace_callback(array('/<b[^>]*>(.*?)<\/b>/i', '/<strong[^>]*>(.*?)<\/strong>/i'), function($matches) {
-        return mb_strtoupper($matches[1]);
+      $plain = (string) preg_replace_callback([ '/<b[^>]*>(.*?)<\/b>/i', '/<strong[^>]*>(.*?)<\/strong>/i' ], function($matches) {
+        return $matches[1];
       }, $plain); // <b> <strong>
 
       // deal with italic elements
@@ -372,9 +371,9 @@
         $url = $matches[1];
         $text = $matches[2];
 
-        if (EmailReplyExtractor::str_starts_with($url, 'http://') || EmailReplyExtractor::str_starts_with($url, 'https://')) {
+        if (EmailReplyExtractor::strStartsWith($url, 'http://') || EmailReplyExtractor::strStartsWith($url, 'https://')) {
           return "$text [$url]";
-        } else if (EmailReplyExtractor::str_starts_with($url, 'mailto:')) {
+        } else if (EmailReplyExtractor::strStartsWith($url, 'mailto:')) {
           return $text . ' [' . substr($url, 7) . ']';
         } else {
           return $text;
@@ -390,8 +389,8 @@
         if (!empty($lines)) {
           foreach ($lines as $line) {
             $return[] = '> ' . $line;
-          } // if
-        } // if
+          }
+        }
         return "\n\n" . implode("\n", $return) . "\n\n";
       }, $plain);
 
