@@ -40,7 +40,6 @@
      */
     private function getExtractor($mailer, Parser &$parser)
     {
-
       $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
 
       return new $class_name($parser);

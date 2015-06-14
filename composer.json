@@ -14,7 +14,6 @@
   ],
   "require" : {
     "php": ">=5.5.0",
-    "nickcernis/html-to-markdown": "~2.2.1",
     "php-mime-mail-parser/php-mime-mail-parser": "~1.7.4"
   },
   "require-dev" : {

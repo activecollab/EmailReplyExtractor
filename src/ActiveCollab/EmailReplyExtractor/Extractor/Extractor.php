@@ -2,7 +2,7 @@
   namespace ActiveCollab\EmailReplyExtractor\Extractor;
 
   use ActiveCollab\EmailReplyExtractor;
-  use eXorus\PhpMimeMailParser\Parser, HTML_To_Markdown;
+  use eXorus\PhpMimeMailParser\Parser;
 
   /**
    * @package ActiveCollab\Extractor
@@ -22,9 +22,6 @@
       $this->parser = $parser;
 
       if ($html = $this->parser->getMessageBody('html')) {
-        $html_to_markdown = new HTML_To_Markdown();
-        $html_to_markdown->convert($html);
-
         $this->body = $this->toPlainText($html);
       } else {
         $this->body = $this->getParser()->getMessageBody('text');
@@ -352,6 +349,9 @@
 
       // elements that convert to single newline
       $plain = (string) preg_replace(array('/<br[^>]*>/i', '/(<tr[^>]*>|<\/tr>)/i'), "\n", $plain); // <br> <tr>
+
+      // images
+      $plain = (string) preg_replace(array('/<img\s+[^>]*src="([^"]*)"[^>]*>/i'), "[Image: \\1]", $plain); // <br> <tr>
 
       // <hr> converts to -----------------------
       $plain = (string) preg_replace('/<hr[^>]*>/i', "\n-------------------------\n", $plain); // <hr>
