@@ -23,14 +23,40 @@
      * @param  string $path
      * @return string
      */
-    public static function extractReply($path)
+    public static function extractReplyEml($path)
     {
       $parser = new Parser();
       $parser->setPath($path);
 
-      $extractor = self::getExtractor(self::detectMailer(self::getHeadersRelevantForMailerDetection($parser)), $parser);
+      $extractor = self::getExtractorEml(self::detectMailer(self::getHeadersRelevantForMailerDetectionEml($parser)), $parser);
+
+      return (string) $extractor->body;
+    }
+
+    /**
+     * Parse input file and return reply
+     *
+     * @param  array  $headers
+     * @param  string $body
+     * @return string
+     */
+    public static function extractReply($headers, $body)
+    {
+      $extractor = self::getExtractor(self::detectMailer(self::getHeadersRelevantForMailerDetection($headers)), $body);
 
       return (string) $extractor;
+    }
+
+    /**
+     * @param  string    $mailer
+     * @param  string    $body
+     * @return Extractor
+     */
+    private function getExtractor($mailer, $body)
+    {
+      $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
+
+      return new $class_name($body);
     }
 
     /**
@@ -38,11 +64,11 @@
      * @param  Parser    $parser
      * @return Extractor
      */
-    private function getExtractor($mailer, Parser &$parser)
+    private function getExtractorEml($mailer, Parser &$parser)
     {
       $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
 
-      return new $class_name($parser);
+      return new $class_name(null, $parser);
     }
 
     /**
@@ -76,7 +102,6 @@
       } else if (isset($headers['mime-version']) && strpos($headers['mime-version'], 'Apple Message framework') !== false) {
         return self::APPLE_MAIL;
       }
-
       return self::GENERIC;
     }
 
@@ -84,22 +109,28 @@
      * @param  Parser $parser
      * @return array
      */
-    private static function getHeadersRelevantForMailerDetection(Parser &$parser)
+    private static function getHeadersRelevantForMailerDetectionEml(Parser &$parser)
     {
-      $headers = [
+      return self::filterHeaders([
         'x-mailer' => $parser->getHeader('x-mailer'),
         'message-id' => $parser->getHeader('message-id'),
         'Received' => $parser->getHeader('received'),
         'Mime-Version' => $parser->getHeader('mime-version'),
-      ];
+      ]);
+    }
 
-      foreach ($headers as $k => $v) {
-        if (empty($v)) {
-          unset($headers[$k]);
-        }
-      }
-
-      return $headers;
+    /**
+     * @param  array $headers
+     * @return array
+     */
+    private static function getHeadersRelevantForMailerDetection(array $headers)
+    {
+      return self::filterHeaders([
+        'x-mailer' => $headers['x-mailer'],
+        'message-id' => $headers['message_id'],
+        'Received' => $headers['Received'],
+        'Mime-Version' => $headers['Mime-Version'],
+      ]);
     }
 
     /**
@@ -112,5 +143,23 @@
      */
     public static function strStartsWith($string, $niddle) {
       return substr($string, 0, strlen($niddle)) == $niddle;
+    }
+
+    /**
+     * Return only not empty headers
+     *
+     * @param $headers
+     *
+     * @return mixed
+     */
+    private static function filterHeaders($headers)
+    {
+      foreach ($headers as $k => $v) {
+        if (empty($v)) {
+          unset($headers[$k]);
+        }
+      }
+
+      return $headers;
     }
   }

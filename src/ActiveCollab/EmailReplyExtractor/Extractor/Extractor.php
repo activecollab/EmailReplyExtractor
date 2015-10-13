@@ -14,35 +14,23 @@
      */
     private $parser;
 
-    /**
-     * @param Parser $parser
-     */
-    public function __construct(Parser $parser)
+    public function __construct($body = null, Parser $parser = null)
     {
       $this->parser = $parser;
 
-      if ($html = $this->parser->getMessageBody('html')) {
-        $this->body = $this->toPlainText($html);
+      if($parser instanceof Parser) {
+        if ($html = $this->parser->getMessageBody('html')) {
+          $this->body = $this->toPlainText($html);
+        } else {
+          $this->body = $this->getParser()->getMessageBody('text');
+        }
       } else {
-        $this->body = $this->getParser()->getMessageBody('text');
+        $this->body = $this->toPlainText($body);
       }
 
       $this->splitLines();
       $this->processLines();
       $this->joinLines();
-    }
-
-    /**
-     * @var string|string[]
-     */
-    protected $body;
-
-    /**
-     * @return string
-     */
-    public function __toString()
-    {
-      return $this->body;
     }
 
     /**
