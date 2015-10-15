@@ -79,6 +79,9 @@
     protected function getOriginalMessageSplitters()
     {
       return [
+        //'On Thursday, October 15, 2015 12:50 PM, owner (Active Collab)  wrote:',
+        '/On(.*?)wrote\:(.*?)/is',
+        '- Reply above this line to leave a comment -',
         '-- REPLY ABOVE THIS LINE --',
         '-- REPLY ABOVE THIS LINE',
         'REPLY ABOVE THIS LINE --',
@@ -87,8 +90,25 @@
         '----- Original Message -----',
         '-- ODGOVORI ODJE --',
         '-------- Original message --------',
-	'- Reply above this line to leave a comment -'
       ];
+    }
+
+    /**
+     * Chack if string is regular expression
+     *
+     * @param $str
+     *
+     * @return bool
+     */
+    protected function isRegex($str)
+    {
+      try {
+        preg_match($str, 'some str');
+      } catch (\Exception $e) {
+        return false;
+      }
+
+      return true;
     }
 
     /**
@@ -102,7 +122,12 @@
 
       foreach ($this->body as $line) {
         foreach ($splitters as $splitter) {
-          if (mb_strpos($line, $splitter) !== false) {
+
+          if(!$this->isRegex($splitter)) {
+            $splitter = '/'.$splitter.'/';
+          }
+
+          if (preg_match($splitter, $line)) {
             if ($trim_previous_lines == 0) {
               $this->body = $stripped;
             } else {
@@ -115,6 +140,7 @@
         }
         $stripped[] = $line;
       }
+
     }
 
     /**

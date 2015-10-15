@@ -49,18 +49,6 @@
 
     /**
      * @param  string    $mailer
-     * @param  string    $body
-     * @return Extractor
-     */
-    private function getExtractor($mailer, $body)
-    {
-      $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
-
-      return new $class_name($body);
-    }
-
-    /**
-     * @param  string    $mailer
      * @param  Parser    $parser
      * @return Extractor
      */
@@ -69,6 +57,18 @@
       $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
 
       return new $class_name(null, $parser);
+    }
+
+    /**
+     * @param  string    $mailer
+     * @param  string    $body
+     * @return Extractor
+     */
+    private function getExtractor($mailer, $body)
+    {
+      $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
+
+      return new $class_name($body);
     }
 
     /**
@@ -96,6 +96,8 @@
           return self::HUSHMAIL;
         } else if (strpos($headers['message-id'], 'outlook.com')) {
           return self::OUTLOOK;
+        } else if (strpos($headers['message-id'], 'yahoo.com')) {
+          return self::YAHOO;
         }
       } else if (isset($headers['received']) && strpos($headers['received'], 'hotmail.com') !== false) {
         return self::HOTMAIL;
