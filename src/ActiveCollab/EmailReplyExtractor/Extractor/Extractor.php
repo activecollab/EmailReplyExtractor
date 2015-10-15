@@ -86,7 +86,8 @@
         '-----Original Message-----',
         '----- Original Message -----',
         '-- ODGOVORI ODJE --',
-        '-------- Original message --------'
+        '-------- Original message --------',
+	'- Reply above this line to leave a comment -'
       ];
     }
 

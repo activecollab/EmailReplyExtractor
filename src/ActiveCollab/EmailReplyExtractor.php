@@ -44,7 +44,7 @@
     {
       $extractor = self::getExtractor(self::detectMailer(self::getHeadersRelevantForMailerDetection($headers)), $body);
 
-      return (string) $extractor;
+      return (string) $extractor->body;
     }
 
     /**
