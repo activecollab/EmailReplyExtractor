@@ -16,6 +16,7 @@
     const IOS = 'iOS';
     const OUTLOOK = 'Outlook';
     const YAHOO = 'Yahoo';
+    const APPLE_CLOUD_MAIL = 'AppleCloudMail';
 
     /**
      * Parse input file and return reply
@@ -98,6 +99,8 @@
           return self::OUTLOOK;
         } else if (strpos($headers['message-id'], 'yahoo.com')) {
           return self::YAHOO;
+        } else if (strpos($headers['message-id'], 'me.com')) {
+          return self::APPLE_CLOUD_MAIL;
         }
       } else if (isset($headers['received']) && strpos($headers['received'], 'hotmail.com') !== false) {
         return self::HOTMAIL;
