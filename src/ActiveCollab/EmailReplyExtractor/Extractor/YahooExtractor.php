@@ -18,6 +18,11 @@
       ]);
     }
 
+    /**
+     * @param string $html
+     *
+     * @return string
+     */
     static function toPlainText($html)
     {
       $html = str_replace('span', 'p', $html);

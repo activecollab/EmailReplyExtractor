@@ -95,7 +95,7 @@
           return self::GOOGLE_MAIL;
         } else if (strpos($headers['message-id'], '@smtp.hushmail.com')) {
           return self::HUSHMAIL;
-        } else if (strpos($headers['message-id'], 'outlook.com')) {
+        } else if (strpos($headers['message-id'], 'outlook.com') || strpos($headers['message-id'], 'phx.gbl')) {
           return self::OUTLOOK;
         } else if (strpos($headers['message-id'], 'yahoo.com')) {
           return self::YAHOO;
