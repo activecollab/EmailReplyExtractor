@@ -39,13 +39,14 @@
      *
      * @param  array  $headers
      * @param  string $body
-     * @return string
+     * @return array
      */
     public static function extractReply($headers, $body)
     {
-      $extractor = self::getExtractor(self::detectMailer(self::getHeadersRelevantForMailerDetection($headers)), $body);
+      $mailer    = self::detectMailer(self::getHeadersRelevantForMailerDetection($headers));
+      $extractor = self::getExtractor($mailer, $body);
 
-      return (string) $extractor->body;
+      return [$extractor->body,$mailer];
     }
 
     /**
