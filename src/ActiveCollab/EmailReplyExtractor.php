@@ -11,6 +11,7 @@
     const APPLE_MAIL = 'AppleMail';
     const GENERIC = 'Generic';
     const GOOGLE_MAIL = 'GoogleMail';
+    const ANDROID_MAIL = 'AndroidMail';
     const HOTMAIL = 'Hotmail';
     const HUSHMAIL = 'Hushmail';
     const IOS = 'iOS';
@@ -92,7 +93,8 @@
           return self::APPLE_MAIL;
         }
       } else if (isset($headers['message-id'])) {
-        if (strpos($headers['message-id'], '@email.android.com') !== false || strpos($headers['message-id'], '@mail.gmail.com') !== false) {
+
+        if (strpos($headers['message-id'], '@mail.gmail.com') !== false) {
           return self::GOOGLE_MAIL;
         } else if (strpos($headers['message-id'], '@smtp.hushmail.com')) {
           return self::HUSHMAIL;
@@ -102,6 +104,8 @@
           return self::YAHOO;
         } else if (strpos($headers['message-id'], 'me.com')) {
           return self::APPLE_CLOUD_MAIL;
+        } else if (strpos($headers['message-id'], '@email.android.com') !== false) {
+          return self::ANDROID_MAIL;
         }
       } else if (isset($headers['received']) && strpos($headers['received'], 'hotmail.com') !== false) {
         return self::HOTMAIL;
