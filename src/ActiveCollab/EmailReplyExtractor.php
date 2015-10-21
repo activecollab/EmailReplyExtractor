@@ -93,6 +93,7 @@
           return self::APPLE_MAIL;
         }
       } else if (isset($headers['message-id'])) {
+
         if (strpos($headers['message-id'], '@mail.gmail.com') !== false) {
           return self::GOOGLE_MAIL;
         } else if (strpos($headers['message-id'], '@smtp.hushmail.com')) {
