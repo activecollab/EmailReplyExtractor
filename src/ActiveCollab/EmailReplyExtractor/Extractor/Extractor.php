@@ -38,9 +38,8 @@
      */
     protected function splitLines()
     {
-      $this->body = explode("\n", str_replace([ "\n\r", "\r\n", "\r" ], [ "\n", "\n", "\n" ], $this->body));
+      $this->body = explode("\n", str_replace(["\n\r", "\r\n", "\r"], ["\n", "\n", "\n"], $this->body));
     }
-
     /**
      * Process body text
      */

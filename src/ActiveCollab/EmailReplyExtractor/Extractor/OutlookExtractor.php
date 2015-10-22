@@ -18,4 +18,17 @@
       return parent::toPlainText($html);
     }
 
+    /**
+     * Return original message splitters
+     *
+     * @todo
+     * @return array
+     */
+    protected function getOriginalMessageSplitters()
+    {
+      return array_merge(parent::getOriginalMessageSplitters(), [
+        '/\-------------------------/is',
+      ]);
+    }
+
   }
