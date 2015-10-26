@@ -14,17 +14,18 @@
      */
     private $parser;
 
-    /**
-     * @param Parser $parser
-     */
-    public function __construct(Parser $parser)
+    public function __construct($body = null, Parser $parser = null)
     {
       $this->parser = $parser;
 
-      if ($html = $this->parser->getMessageBody('html')) {
-        $this->body = $this->toPlainText($html);
+      if($parser instanceof Parser) {
+        if ($html = $this->parser->getMessageBody('html')) {
+          $this->body = $this->toPlainText($html);
+        } else {
+          $this->body = $this->getParser()->getMessageBody('text');
+        }
       } else {
-        $this->body = $this->getParser()->getMessageBody('text');
+        $this->body = $this->toPlainText($body);
       }
 
       $this->splitLines();
@@ -33,26 +34,12 @@
     }
 
     /**
-     * @var string|string[]
-     */
-    protected $body;
-
-    /**
-     * @return string
-     */
-    public function __toString()
-    {
-      return $this->body;
-    }
-
-    /**
      * Prepare body text for processing
      */
     protected function splitLines()
     {
-      $this->body = explode("\n", str_replace([ "\n\r", "\r\n", "\r" ], [ "\n", "\n", "\n" ], $this->body));
+      $this->body = explode("\n", str_replace(["\n\r", "\r\n", "\r"], ["\n", "\n", "\n"], $this->body));
     }
-
     /**
      * Process body text
      */
@@ -91,6 +78,9 @@
     protected function getOriginalMessageSplitters()
     {
       return [
+        //'On Thursday, October 15, 2015 12:50 PM, owner (Active Collab)  wrote:',
+        '/On(.*?)wrote\:(.*?)/is',
+        '- Reply above this line to leave a comment -',
         '-- REPLY ABOVE THIS LINE --',
         '-- REPLY ABOVE THIS LINE',
         'REPLY ABOVE THIS LINE --',
@@ -98,8 +88,26 @@
         '-----Original Message-----',
         '----- Original Message -----',
         '-- ODGOVORI ODJE --',
-        '-------- Original message --------'
+        '-------- Original message --------',
       ];
+    }
+
+    /**
+     * Chack if string is regular expression
+     *
+     * @param $str
+     *
+     * @return bool
+     */
+    protected function isRegex($str)
+    {
+      try {
+        preg_match($str, 'some str');
+      } catch (\Exception $e) {
+        return false;
+      }
+
+      return true;
     }
 
     /**
@@ -113,7 +121,12 @@
 
       foreach ($this->body as $line) {
         foreach ($splitters as $splitter) {
-          if (mb_strpos($line, $splitter) !== false) {
+
+          if(!$this->isRegex($splitter)) {
+            $splitter = '/'.$splitter.'/';
+          }
+
+          if (preg_match($splitter, $line)) {
             if ($trim_previous_lines == 0) {
               $this->body = $stripped;
             } else {
@@ -126,6 +139,7 @@
         }
         $stripped[] = $line;
       }
+
     }
 
     /**
