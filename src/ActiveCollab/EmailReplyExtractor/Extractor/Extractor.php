@@ -66,7 +66,8 @@
      */
     public function joinLines()
     {
-      $this->body = trim(implode("\n", $this->body));
+      // ltrim() strips BOM characters
+      $this->body = ltrim(trim(implode("\n", $this->body), "\xEF\xBB\xBF"));
     }
 
     /**
@@ -80,6 +81,8 @@
       return [
         //'On Thursday, October 15, 2015 12:50 PM, owner (Active Collab)  wrote:',
         '/On(.*?)wrote\:(.*?)/is',
+        '/^Am(.*?)schrieb(.*?)/is',
+//        '----- Forwarded Message -----',
         '- Reply above this line to leave a comment -',
         '-- REPLY ABOVE THIS LINE --',
         '-- REPLY ABOVE THIS LINE',
@@ -306,6 +309,7 @@
     static function toPlainText($html) {
       $plain = (string) $html;
 
+
       // strip slashes
       $plain = (string) trim(stripslashes($plain));
 
@@ -367,7 +371,7 @@
       // images
       $plain = (string) preg_replace(array('/<img\s+[^>]*src="([^"]*)"[^>]*>/i'), "[Image: \\1]", $plain); // <br> <tr>
 
-      // <hr> converts to -----------------------
+      // <hr> converts to --------------------//---
       $plain = (string) preg_replace('/<hr[^>]*>/i', "\n-------------------------\n", $plain); // <hr>
 
       // other table tags
@@ -392,7 +396,7 @@
         } else {
           return $text;
         }
-      }, $plain); // <li />
+      }, $plain); // <a href="$url">$text</a>
 
       // handle blockquotes
       $plain = (string) preg_replace_callback('/<blockquote[^>]*>(.*?)<\/blockquote>/is', function ($blockquote_content) {
@@ -408,10 +412,12 @@
         return "\n\n" . implode("\n", $return) . "\n\n";
       }, $plain);
 
+      $plain = (string) preg_replace('/<title[^>]*>(.*?)<\/title>/i', "", $plain); // remove unnecessary title tag
+
       // strip other tags
       $plain = (string) strip_tags($plain);
 
-      // clean up unneccessary newlines
+      // clean up unnecessary newlines
       $plain = (string) preg_replace("/\n\s+\n/", "\n\n", $plain);
       $plain = (string) preg_replace("/[\n]{3,}/", "\n\n", $plain);
 

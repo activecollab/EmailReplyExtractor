@@ -4,9 +4,14 @@
   /**
    * @package ActiveCollab\EmailReplyExtractor\Extractor
    */
-  final class GenericExtractor extends Extractor
+  final class OutlookExpressExtractor extends Extractor
   {
-    public static function toPlainText($html)
+    /**
+     * @param string $html
+     *
+     * @return string
+     */
+    static function toPlainText($html)
     {
       $html = str_replace('div', 'p', $html);
 
@@ -14,8 +19,9 @@
     }
 
     /**
-     * Return splitters
+     * Return original message splitters
      *
+     * @todo
      * @return array
      */
     protected function getOriginalMessageSplitters()
@@ -24,4 +30,5 @@
         '/\-------------------------/is',
       ]);
     }
+
   }

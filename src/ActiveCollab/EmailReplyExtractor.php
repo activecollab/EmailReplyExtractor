@@ -12,12 +12,13 @@
     const GENERIC = 'Generic';
     const GOOGLE_MAIL = 'GoogleMail';
     const ANDROID_MAIL = 'AndroidMail';
-    const HOTMAIL = 'Hotmail';
     const HUSHMAIL = 'Hushmail';
     const IOS = 'iOS';
     const OUTLOOK = 'Outlook';
+    const OUTLOOK_EXPRESS = 'OutlookExpress';
     const YAHOO = 'Yahoo';
     const APPLE_CLOUD_MAIL = 'AppleCloudMail';
+    const MAIL_RU_MAIL = 'MailRuMail';
 
     /**
      * Parse input file and return reply
@@ -32,7 +33,7 @@
 
       $extractor = self::getExtractorEml(self::detectMailer(self::getHeadersRelevantForMailerDetectionEml($parser)), $parser);
 
-      return (string) $extractor->body;
+      return (string) trim($extractor->body);
     }
 
     /**
@@ -47,7 +48,7 @@
       $mailer    = self::detectMailer(self::getHeadersRelevantForMailerDetection($headers));
       $extractor = self::getExtractor($mailer, $body);
 
-      return [$extractor->body,$mailer];
+      return [trim($extractor->body),$mailer];
     }
 
     /**
@@ -55,7 +56,7 @@
      * @param  Parser    $parser
      * @return Extractor
      */
-    private function getExtractorEml($mailer, Parser &$parser)
+    private static function getExtractorEml($mailer, Parser &$parser)
     {
       $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
 
@@ -87,6 +88,8 @@
           return self::IOS;
         } else if (strpos($headers['x-mailer'], 'Microsoft Office Outlook') !== false || strpos($headers['x-mailer'], 'Microsoft Outlook 14.') !== false || strpos($headers['x-mailer'], 'Microsoft Windows Live Mail') !== false) {
           return self::OUTLOOK;
+        } else if (strpos($headers['x-mailer'], 'Outlook Express') !== false) {
+          return self::OUTLOOK_EXPRESS;
         } else if (strpos($headers['x-mailer'], 'YahooMail') !== false) {
           return self::YAHOO;
         } else if (strpos($headers['x-mailer'], 'Apple Mail') !== false) {
@@ -106,9 +109,9 @@
           return self::APPLE_CLOUD_MAIL;
         } else if (strpos($headers['message-id'], '@email.android.com') !== false) {
           return self::ANDROID_MAIL;
+        } else if (strpos($headers['message-id'], 'i.mail.ru') !== false) {
+          return self::MAIL_RU_MAIL;
         }
-      } else if (isset($headers['received']) && strpos($headers['received'], 'hotmail.com') !== false) {
-        return self::HOTMAIL;
       } else if (isset($headers['mime-version']) && strpos($headers['mime-version'], 'Apple Message framework') !== false) {
         return self::APPLE_MAIL;
       }
