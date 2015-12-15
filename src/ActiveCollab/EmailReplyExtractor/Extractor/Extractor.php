@@ -367,6 +367,9 @@
       // elements that convert to single newline
       $plain = (string) preg_replace(array('/<br[^>]*>/i', '/(<tr[^>]*>|<\/tr>)/i'), "\n", $plain); // <br> <tr>
 
+      // div elements
+      $plain = (string) preg_replace('/<div[^>]*>(.*?)<\/div>/i', "\\1\n", $plain); // <div>with content</div>
+
       // images
       $plain = (string) preg_replace(array('/<img\s+[^>]*src="([^"]*)"[^>]*>/i'), "[Image: \\1]", $plain); // <br> <tr>
 
