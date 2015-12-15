@@ -1,0 +1,88 @@
+From MAILER-DAEMON Fri Jul  8 12:08:34 2011
+From: Example Example <example@example.com>
+Mime-Version: 1.0 (Apple Message framework v1278)
+Content-Type: multipart/mixed;
+	boundary="Apple-Mail=_F3CC26CB-999F-4637-A18B-C45AA53421C9"
+X-Smtp-Server: zimbra.example.com:example@example.com
+Subject: Re: New comment on 'Another test' task {TASK/10/14}
+Date: Thu, 31 May 2012 08:41:36 +0200
+X-Universally-Unique-Identifier: 539fe441-78f1-48f2-a377-6e9cf2eaafb7
+In-Reply-To: <1338446415.4fc7124f56f22@ps.example.com>
+To: example@example.com
+References: <1338446415.4fc7124f56f22@example.example.com>
+Message-Id: <507EB0D1-0F5D-4B40-B94C-BC779050AE8A@example.com>
+X-IMAPbase: 1338473987 1
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+
+--Apple-Mail=_F3CC26CB-999F-4637-A18B-C45AA53421C9
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+Just an attachment
+
+
+--Apple-Mail=_F3CC26CB-999F-4637-A18B-C45AA53421C9
+Content-Disposition: attachment;
+	filename=v13-demo.txt
+Content-Type: text/plain;
+	name="v13-demo.txt"
+Content-Transfer-Encoding: quoted-printable
+
+## test document
+* TEST
+* more text
+
+
+--Apple-Mail=_F3CC26CB-999F-4637-A18B-C45AA53421C9
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=iso-8859-1
+
+
+
+
+On 31 maj 2012, at 08:40, Example wrote:
+
+> -- REPLY ABOVE THIS LINE --
+>=20
+> Example Services
+> Task:	Another test
+> Project:	General
+> Public Page:	Visit
+> See this Task in Browser=09
+> Created by
+> Example Example
+>=20
+> =09
+> Tester May 31. 2012       					=09
+> Just at test comment
+> Powered by activeCollab
+>=20
+
+Best regards,
+Example Example
+
+--
+Director of Example Services
+Example, Inc
+Example Example, 214 21 Novi Sad, Serbia
+
+Cell		+381-(0)21-11 22 35
+Phone	+381-(0)21-11 22 33
+Fax		+381-(0)21-11 22 34
+
+Skype	example.example
+Web		www.example.com
+
+
+
+
+
+
+--Apple-Mail=_F3CC26CB-999F-4637-A18B-C45AA53421C9--
+

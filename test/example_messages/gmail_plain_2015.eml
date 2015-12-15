@@ -1,0 +1,73 @@
+Return-Path: <example@gmail.com>
+Delivered-To: exampleovic@example.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :content-type:content-transfer-encoding;
+        bh=iaFY+hP4vQK7NBxXbTGoJ4AQXbFQojAt04fev5P1G24=;
+        b=dVdGll0dDcsd5UmCUGbp4SVXLX+mn2rzvSB/UYJDOwb7lTK35xRRN7St6dv38MhEom
+         u9KbAvWtf9ubQ9X8//Mha7gdeMyYTXBKUBN6E3gZH1ERYgpt+sDdvhqBxUUUjSOsrLim
+         3SFVWGPdlVxp+muyt5oV+f0Qc1f06g6V4//Q5ENGCMNCBrOFFr0DNRGDsZ9Fh0Vu9XZ/
+         EnPZ6NNVJcPsO24VWFVb9PEvBWZhzLw69zx/yyO4Tisu5iwI0b3i4X5X7zzflNl2SW2e
+         xC67K1RQz6mFVJzTxu+5mR6wpdzqQbii8sPllr1BKj5GKL1lc3iIL8+o14r/4r5Ky7IP
+         EeFQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+	d=mail.manageprojects.com; s=default; t=1449236841;
+	bh=6OoBfSqmAKC2VFHR/cOBi/9Tey5Xofs+dLE4I5FWHBk=;
+	h=In-Reply-To:References:Date:Subject:From:To;
+	b=l4XSl1K/otvUq9GxYIaGYRgufSrdsxZQUJvo3Go9so7Iksi91TU88Gyldk+ZQPI0u
+	 lAwkXdHks5cCy33OjGOytDpyDY8YAEnh7CBszfk9nJntMHP+ZiDCaCTxuIVbzx7tLL
+	 u15egb1PO5RJDmN2oj6Ef+0oCKAydSKAPupQ836Q=
+Authentication-Results: example.com; dkim=pass
+	reason="2048-bit key; unprotected key"
+	header.d=gmail.com header.i=@gmail.com header.b=dVdGll0d;
+	dkim-adsp=pass; dkim-atps=neutral
+MIME-Version: 1.0
+In-Reply-To: <ebb66bb85758a3b832b011581032f06c@acid>
+References: <ebb66bb85758a3b832b011581032f06c@acid>
+Date: Fri, 4 Dec 2015 14:47:20 +0100
+Message-ID: <CAMuB9mrF0UKUtKkLE3Sfy2yWUgzyxQ=K=QNWvVpchpGH-ym7AQ@mail.gmail.com>
+Subject: Re: Fwd: test linkova
+From: =?UTF-8?B?U3LEkWFuIE1hcmphbm92acSH?= <example@gmail.com>
+To: Owner Owneric <exampleovic@example.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Email Reply
+
+On 4 December 2015 at 14:46, Owner Owneric
+<exampleovic@example.com> wrote:
+> - Reply above this line to leave a comment -
+>
+> New comment posted in:
+> Fwd: test linkova
+>
+> Owner Owneric  Dec 4. 2015
+> testiramo plain gmail
+>
+>   Older comments
+> Owner Owneric  Dec 4. 2015
+> @example example test
+> mjau mjau
+> Screen Shot 2015-08-25 at 9.37.11 AM.png 10.51kb
+> Owner Owneric  Dec 4. 2015
+> @srdja srdja mjau?
+> Owner Owneric  Dec 4. 2015
+> @srdja srdja mjauuu
+>
+> Owner Owneric  Dec 4. 2015
+> @srdja srdja mjau
+>
+>
+> Project: client test
+> Task List: ToDont
+> People in this task: Owner Owneric, example example and srdja srdja
+>
+> Delivered by ActiveCollab
+> Don't send me emails about this task any more
+
+
+
+--=20
+S po=C5=A1tovanjem,
+Sr=C4=91an Example
