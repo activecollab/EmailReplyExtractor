@@ -1,7 +1,9 @@
 <?php
   namespace ActiveCollab\EmailReplyExtractor\Extractor;
 
-
+  /**
+   * @package ActiveCollab\EmailReplyExtractor\Extractor
+   */
   final class AndroidMailExtractor extends Extractor
   {
     /**
@@ -16,10 +18,6 @@
 
       // strip 'first name last name wrote:'
       if (preg_match('/(.*?)wrote:/is', $unwanted_text)) {
-        $this->body = array_splice($this->body, 0, $cut_line);
-      }
-
-      if (preg_match('/^Am(.*?)schrieb(.*?)/is', $unwanted_text)) {
         $this->body = array_splice($this->body, 0, $cut_line);
       }
 

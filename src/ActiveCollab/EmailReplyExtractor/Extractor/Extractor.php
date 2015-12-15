@@ -73,7 +73,6 @@
     /**
      * Return original message splitters
      *
-     * @todo
      * @return array
      */
     protected function getOriginalMessageSplitters()

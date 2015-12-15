@@ -33,7 +33,7 @@
 
       $extractor = self::getExtractorEml(self::detectMailer(self::getHeadersRelevantForMailerDetectionEml($parser)), $parser);
 
-      return (string) trim($extractor->body);
+      return trim($extractor->body);
     }
 
     /**

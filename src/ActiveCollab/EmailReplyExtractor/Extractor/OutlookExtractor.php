@@ -6,21 +6,6 @@
    */
   final class OutlookExtractor extends Extractor
   {
-    /**
-     * Overrides Extractor::toPlaineText()
-     *
-     * @param string $html
-     *
-     * @return string
-     */
-    static function toPlainText($html)
-    {
-      $html = str_replace('div', 'p', $html);
-
-      return parent::toPlainText($html);
-    }
-
-
     public function processLines()
     {
       parent::processLines();
@@ -52,7 +37,6 @@
     /**
      * Return original message splitters
      *
-     * @todo
      * @return array
      */
     protected function getOriginalMessageSplitters()
