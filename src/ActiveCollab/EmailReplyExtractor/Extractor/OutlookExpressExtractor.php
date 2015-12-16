@@ -4,10 +4,11 @@
   /**
    * @package ActiveCollab\EmailReplyExtractor\Extractor
    */
-  final class YahooExtractor extends Extractor
+  final class OutlookExpressExtractor extends Extractor
   {
+
     /**
-     * Return splitters
+     * Return original message splitters
      *
      * @return array
      */
@@ -16,18 +17,6 @@
       return array_merge(parent::getOriginalMessageSplitters(), [
         '/\-------------------------/is',
       ]);
-    }
-
-    /**
-     * @param string $html
-     *
-     * @return string
-     */
-    static function toPlainText($html)
-    {
-      $html = str_replace('span', 'p', $html);
-      $html = preg_replace('/<div class="signature".+<\/div>/','', $html);
-      return parent::toPlainText($html);
     }
 
   }

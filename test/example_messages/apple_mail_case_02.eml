@@ -1,0 +1,235 @@
+From MAILER-DAEMON Fri Jul  8 12:08:34 2011
+Delivered-To: example@gmail.com
+Received: by 10.70.53.1 with SMTP id x1csp7446pdo;
+        Thu, 9 Jan 2014 01:33:28 -0800 (PST)
+X-Received: by 10.194.60.103 with SMTP id g7mr1787650wjr.37.1389260007904;
+        Thu, 09 Jan 2014 01:33:27 -0800 (PST)
+Return-Path: <example@gmail.com>
+Received: from mail-ee0-x22c.google.com (mail-ee0-x22c.google.com [2a00:1450:4013:c00::22c])
+        by mx.google.com with ESMTPS id ot6si942459wjc.45.2014.01.09.01.33.27
+        for <example@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 09 Jan 2014 01:33:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of example@gmail.com designates 2a00:1450:4013:c00::22c as permitted sender) client-ip=2a00:1450:4013:c00::22c;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of example@gmail.com designates 2a00:1450:4013:c00::22c as permitted sender) smtp.mail=example@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ee0-x22c.google.com with SMTP id b57so1183143eek.17
+        for <example@gmail.com>; Thu, 09 Jan 2014 01:33:27 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-type:message-id:mime-version:subject:date:references
+         :to:in-reply-to;
+        bh=NcKZFL0xVDZynspujathHcPoG1PIHWzgQBtlQ+lHg7o=;
+        b=i5fR+40BoahvzUvmbFbWE6pgnMXnu9YjfcVrVkkIBIIVmr5J8TGaR7QEVDklgHuTHz
+         /6YuSd/XuWRm63qzmrtaJ5ovihotO3lOOFA8csjWqMC0CoPu4wokGsBp3K1kDE5AW6u/
+         /2Z0Gnp2mtHum1igUR5BGSK1a35MoPS/ai9p5xsb6Ug10TPhkyChkBHuiRXuxUDdspBn
+         3bwv4IwHhY57EIYJpTJllxRQH4K8PD0zGI1YGe5VgLno1QH+lXnreIkc8Y4ilvJfNEur
+         OQPfJDixC6jfobiUVaR6KpWOaEKmk1l+/1jAvdYoizA36HBWa2OOd5dHtB/IYGv8/95+
+         /8Nw==
+X-Received: by 10.15.67.142 with SMTP id u14mr2224697eex.59.1389260007275;
+        Thu, 09 Jan 2014 01:33:27 -0800 (PST)
+Return-Path: <example@gmail.com>
+Received: from [192.168.1.119] (cable-89-216-122-78.static.sbb.rs. [89.216.122.78])
+        by mx.google.com with ESMTPSA id e3sm3808577eeg.11.2014.01.09.01.33.26
+        for <example@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 09 Jan 2014 01:33:26 -0800 (PST)
+From: Example Example <example@gmail.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_B81436B2-C64D-432B-A98A-EA1CA72C6F75"
+Message-Id: <6C0C929D-AA68-4D1F-8989-C1235DDC1109@gmail.com>
+Mime-Version: 1.0 (Mac OS X Mail 7.1 \(1827\))
+Subject: Re: [A51 & ekipa] New comment on 'ert' discussion {DISCUSSION/14946}
+Date: Thu, 9 Jan 2014 10:33:25 +0100
+References: <1388500858.52c2d77abb197@shepherd.dev>
+To: example@gmail.com
+In-Reply-To: <1388500858.52c2d77abb197@shepherd.dev>
+X-Mailer: Apple Mail (2.1827)
+X-IMAPbase: 1389260229 1
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+
+--Apple-Mail=_B81436B2-C64D-432B-A98A-EA1CA72C6F75
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+Email Reply
+On Dec 31, 2013, at 3:40 PM, activeCollab <example@gmail.com> =
+wrote:
+
+>=20
+> =09
+> Conversation:	Konverzacija
+> Created by
+> Example G.=09
+> =09
+> Example G.   Dec 31, 2013   New!
+> Kotor
+> =09
+> Example G.   Dec 30, 2013
+> Idmeo
+> Incoming Mail =97 A51Developers.jpg84.22kb
+> daca.jpg272.12kb
+> patch.diff6.8kb
+> Showing All 2 Comments
+> =A9 2013 ManageProjects.com
+> Powered by activeCollab =AE
+
+
+--Apple-Mail=_B81436B2-C64D-432B-A98A-EA1CA72C6F75
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dwindows-1252"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">Email =
+Reply<br><div><div>On Dec 31, 2013, at 3:40 PM, activeCollab &lt;<a =
+href=3D"mailto:example@gmail.com">example@gmail.com</a>&gt; =
+wrote:</div><br class=3D"Apple-interchange-newline"><blockquote =
+type=3D"cite"><div style=3D"margin: 0px; padding: 0px; font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: auto; text-align: start; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: auto; word-spacing: 0px; =
+-webkit-text-stroke-width: 0px; width: 100% !important;"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" id=3D"backgroundTable" =
+width=3D"100%" align=3D"center" style=3D"border-collapse: collapse; =
+margin: 0px; padding: 0px; width: 100% !important; line-height: 100% =
+!important; font-family: 'Lucida Grande', Verdana, Arial, Helvetica, =
+sans-serif; background-color: rgb(235, 235, 235); background-position: =
+initial initial; background-repeat: initial initial;"><tbody><tr><td =
+cellpadding=3D"0" cellspacing=3D"0" id=3D"mainContent" align=3D"center" =
+style=3D"border-collapse: collapse; padding: 40px 20px;"><table =
+width=3D"654" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"center" id=3D"mainTable" style=3D"border-collapse: separate; =
+width: 654px; margin: 0px auto; border-spacing: 0px; border: 1px solid =
+rgb(208, 210, 201); border-top-left-radius: 20px; =
+border-top-right-radius: 20px; border-bottom-right-radius: 20px; =
+border-bottom-left-radius: 20px; text-align: left;"><tbody><tr><td =
+style=3D"border-collapse: collapse;"><table cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" align=3D"center" id=3D"inspector" =
+style=3D"border-collapse: separate; padding: 15px; =
+border-top-left-radius: 20px; border-top-right-radius: 20px; =
+border-bottom-right-radius: 20px; border-bottom-left-radius: =
+20px;"><tbody><tr><td class=3D"branding" style=3D"border-collapse: =
+collapse; text-align: center; padding: 10px;"><img =
+src=3D"http://shepherd.dev/public/brand/logo.80x80.png?timestamp=3D1379407=
+214" alt=3D"Logo" style=3D"outline: none; text-decoration: =
+none;"></td><td style=3D"border-collapse: collapse; text-align: left; =
+width: 624px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+align=3D"left" style=3D"border-collapse: collapse; font-family: 'Lucida =
+Grande', Verdana, Arial, Helvetica, sans-serif; font-size: 12px; =
+background-color: rgb(235, 235, 235); line-height: 16px; =
+background-position: initial initial; background-repeat: initial =
+initial;"><tbody><tr><td style=3D"border-collapse: collapse; width: =
+80px; vertical-align: top; padding: 3px 2px 4px =
+4px;">Conversation:</td><td style=3D"border-collapse: collapse; =
+vertical-align: top; padding: 2px; width: auto !important;"><a =
+href=3D"http://shepherd.dev/helpdesk/conversations/7" style=3D"color: =
+rgb(149, 0, 0); text-decoration: =
+underline;">Konverzacija</a></td></tr></tbody></table></td><td =
+style=3D"border-collapse: collapse;"><table cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" align=3D"center" id=3D"createdBy" =
+style=3D"border-collapse: collapse; width: 150px; font-family: 'Lucida =
+Grande', Verdana, Arial, Helvetica, sans-serif; font-size: =
+12px;"><tbody><tr><td align=3D"right" width=3D"100" =
+style=3D"border-collapse: collapse; margin: 5px; width: 100px;">Created =
+by<br><a href=3D"http://shepherd.dev/users/19" style=3D"padding-top: =
+5px; color: rgb(149, 0, 0); text-decoration: underline;">Example =
+G.</a></td><td class=3D"avatar" style=3D"border-collapse: collapse; =
+padding: 5px 10px;"><img =
+src=3D"http://shepherd.dev/assets/images/authentication/default/user-roles=
+/member.40x40.png" alt=3D"" style=3D"outline: none; text-decoration: =
+none;"></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><=
+td style=3D"border-collapse: separate; width: 654px; background-color: =
+rgb(255, 255, 255); border-bottom-right-radius: 20px; =
+border-bottom-left-radius: 20px;"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"ExternalClass" style=3D"border-collapse: =
+collapse; width: 652px; line-height: 12px; font-family: 'Lucida Grande', =
+Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"><tbody><tr><td =
+colspan=3D"2" style=3D"border-collapse: collapse; line-height: 1px; =
+border-top-width: 1px; border-top-style: solid; border-top-color: =
+rgb(215, 216, 207); height: 1px; width: 654px;"></td></tr><tr><td =
+class=3D"avatar" style=3D"border-collapse: collapse; line-height: 12px; =
+padding: 15px; vertical-align: top; text-align: center; width: 40px;"><a =
+href=3D"mailto:example@yahoo.com"><img =
+src=3D"http://shepherd.dev/assets/images/authentication/default/user-roles=
+/anonymous.40x40.png" alt=3D"avatar" style=3D"outline: none; =
+text-decoration: none; border: none;"></a></td><td =
+style=3D"border-collapse: collapse; line-height: 12px; padding: 15px =
+15px 15px 0px;"><div style=3D"line-height: 12px; padding-bottom: =
+5px;"><a href=3D"mailto:example@yahoo.com" style=3D"color: rgb(149, 0, =
+0); text-decoration: underline; font-weight: bold;">Example G.</a><span =
+class=3D"Apple-converted-space">&nbsp;</span>&nbsp; Dec 31, 2013 =
+&nbsp;<span class=3D"Apple-converted-space">&nbsp;</span><span =
+style=3D"line-height: 12px; font-weight: bold;">New!</span></div><div =
+style=3D"line-height: 12px;">Kotor</div></td></tr><tr><td colspan=3D"3" =
+height=3D"1" style=3D"border-collapse: collapse; line-height: 12px; =
+width: 654px;"><div style=3D"line-height: 1; height: 1px; =
+border-bottom-width: 1px; border-bottom-style: solid; =
+border-bottom-color: rgb(215, 216, 207); padding: =
+0px;"></div></td></tr><tr><td class=3D"avatar" style=3D"border-collapse: =
+collapse; line-height: 12px; padding: 15px; vertical-align: top; =
+text-align: center; width: 40px;"><a =
+href=3D"mailto:example@yahoo.com"><img =
+src=3D"http://shepherd.dev/assets/images/authentication/default/user-roles=
+/anonymous.40x40.png" alt=3D"avatar" style=3D"outline: none; =
+text-decoration: none; border: none;"></a></td><td =
+style=3D"border-collapse: collapse; line-height: 12px; padding: 15px =
+15px 15px 0px;"><div style=3D"line-height: 12px; padding-bottom: =
+5px;"><a href=3D"mailto:example@yahoo.com" style=3D"color: rgb(149, 0, =
+0); text-decoration: underline; font-weight: bold;">Example G.</a><span =
+class=3D"Apple-converted-space">&nbsp;</span>&nbsp; Dec 30, =
+2013</div><div style=3D"line-height: 12px;">Idmeo<table width=3D"100%" =
+id=3D"attachment" style=3D"border-collapse: collapse;"><tbody><tr><td =
+style=3D"border-collapse: collapse; line-height: 12px; padding-bottom: =
+15px;"><img =
+src=3D"http://shepherd.dev/assets/images/attachments/default/icons/12x12/m=
+anage-attachments.png" style=3D"outline: none; text-decoration: =
+none;"><a =
+href=3D"http://shepherd.dev/helpdesk/conversations/7/comments/6/attachment=
+s/6/download?force=3D1&amp;disposition=3Dattachment" style=3D"margin-left:=
+ 5px; color: rgb(149, 0, 0); text-decoration: underline;">Incoming Mail =
+=97 A51Developers.jpg</a><span style=3D"line-height: 9px; margin-left: =
+5px; font-size: 9px; color: rgb(145, 145, 141);">84.22kb</span><br><img =
+src=3D"http://shepherd.dev/assets/images/attachments/default/icons/12x12/m=
+anage-attachments.png" style=3D"outline: none; text-decoration: =
+none;"><a =
+href=3D"http://shepherd.dev/helpdesk/conversations/7/comments/6/attachment=
+s/7/download?force=3D1&amp;disposition=3Dattachment" style=3D"margin-left:=
+ 5px; color: rgb(149, 0, 0); text-decoration: =
+underline;">daca.jpg</a><span style=3D"line-height: 9px; margin-left: =
+5px; font-size: 9px; color: rgb(145, 145, 141);">272.12kb</span><br><img =
+src=3D"http://shepherd.dev/assets/images/attachments/default/icons/12x12/m=
+anage-attachments.png" style=3D"outline: none; text-decoration: =
+none;"><a =
+href=3D"http://shepherd.dev/helpdesk/conversations/7/comments/6/attachment=
+s/8/download?force=3D1&amp;disposition=3Dattachment" style=3D"margin-left:=
+ 5px; color: rgb(149, 0, 0); text-decoration: =
+underline;">patch.diff</a><span style=3D"line-height: 9px; margin-left: =
+5px; font-size: 9px; color: rgb(145, 145, =
+141);">6.8kb</span><br></td></tr></tbody></table></div></td></tr><tr><td =
+colspan=3D"3" style=3D"border-collapse: collapse; line-height: 12px; =
+padding: 15px; color: rgb(153, 153, 153); text-align: center;">Showing =
+All 2 =
+Comments</td></tr></tbody></table></td></tr></tbody></table></td></tr><tr>=
+<td style=3D"border-collapse: collapse; text-align: center; padding: 5px =
+0px 20px; font-size: 11px;">=A9 2013<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"http://manageprojects.com/" target=3D"_blank" style=3D"color: =
+rgb(149, 0, 0); text-decoration: =
+underline;">ManageProjects.com</a><br>Powered by<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"http://www.activecollab.com/" target=3D"_blank" style=3D"color: =
+rgb(149, 0, 0); text-decoration: underline;">activeCollab =
+=AE</a></td></tr></tbody></table></div></blockquote></div><br></body></htm=
+l>=
+
+--Apple-Mail=_B81436B2-C64D-432B-A98A-EA1CA72C6F75--
+

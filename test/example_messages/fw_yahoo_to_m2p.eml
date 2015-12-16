@@ -1,0 +1,98 @@
+From MAILER-DAEMON Fri Jul  8 12:08:34 2011
+Delivered-To: activecollabt+m2p-f810847@gmail.com
+Received: by 10.70.41.99 with SMTP id e3csp226344pdl;
+        Thu, 3 Jul 2014 02:18:02 -0700 (PDT)
+X-Received: by 10.42.32.136 with SMTP id e8mr8648467icd.44.1404379082309;
+        Thu, 03 Jul 2014 02:18:02 -0700 (PDT)
+Return-Path: <example@gmail.com>
+Received: from nm1-vm4.bullet.mail.ne1.yahoo.com (nm1-vm4.bullet.mail.ne1.yahoo.com. [98.138.91.161])
+        by mx.google.com with ESMTPS id a6si8976677icu.24.2014.07.03.02.18.01
+        for <activecollabt+m2p-f810847@gmail.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 03 Jul 2014 02:18:02 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning example@gmail.com does not designate 98.138.91.161 as permitted sender) client-ip=98.138.91.161;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning example@gmail.com does not designate 98.138.91.161 as permitted sender) smtp.mail=example@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1404379081; bh=6HmRAaEv3nl0B1jy4abuzeZtJ5XvPxwQJCkXSTml4cM=; h=Received:Received:Received:X-Yahoo-Newman-Property:X-Yahoo-Newman-Id:X-Yahoo-Forwarded:Return-Path:Received-SPF:X-YMailISG:X-Originating-IP:Authentication-Results:Received:Received:DKIM-Signature:MIME-Version:X-Received:Received:Date:Message-ID:Subject:From:To:Content-Type; b=SP5tRoXVNwOoYV7yx7pe+Nsv8ZzFMqjF+8kb219Egx2/HgP1AdZ+tiQ8hHgQLQeJDtqmMmG6i4eW7H4VYxhyDZ32MeGX4B8JzAFJREi4TK2cn8080fVJg8QGwBfjttvwxx0JbxNrCP328+Bvv49AQcI0g31ZRWsL5ykFpcie7HR53iGR3HdzSNta6I8KRw5yBEP/nkvxPTW0zqygyXJdF3jd51jBW2hOp+6zKKedaNZQ29x3WFdd2sbakhO211qpBlZMx5HKANzsHgACBXA2hmQL64qVMtJYHHi4cn8h4rYzlbKYYxd/EJhq7935tE6+TEcCMf3L4zgiJUIdIN+02Q==
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s2048; d=yahoo.com;
+	b=Vy18NFx2ZP44G9gXH4YowacDiAcnNTr/QvTOWMOGgoik4D2P/HPSp0a8tdDj0wdgohk9zOeCJon/a6uHw+ksxPjW69j4bwnU0CG5DlvPRo5Sig9q/lhFEizhbf7/5XBt07b9Mxpoq/0LccowPWsIl3ELF1yT4iNBMLSBKR8s28BFAVeUYBMov8k01nW51c/zqer40i4aMr6lvHhypkyILIBjOT894IsAsjeAQdvFofIn8vUsnAvCeD9jN5O3VU3dYGMKPSSzzNahF6090Sswx8rPfhGQijozLjFvWvOEEhBOZfRU73DRX5YfcWXwheD25Fg7RoHyRrX/TrR0v8b2Qg==;
+Received: from [98.138.101.128] by nm1.bullet.mail.ne1.yahoo.com with NNFMP; 03 Jul 2014 09:18:01 -0000
+Received: from [98.138.101.182] by tm16.bullet.mail.ne1.yahoo.com with NNFMP; 03 Jul 2014 09:18:01 -0000
+Received: from [127.0.0.1] by omp1093.mail.ne1.yahoo.com with NNFMP; 03 Jul 2014 09:18:01 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 693557.26151.bm@omp1093.mail.ne1.yahoo.com
+X-Yahoo-Forwarded: from example@yahoo.com to activecollabt+m2p-f810847@gmail.com
+Return-Path: <example@gmail.com>
+Received-SPF: pass (domain of gmail.com designates 209.85.220.177 as permitted sender)
+ A3RleHQvaHRtbAMDMQ--
+X-YMailISG: 2TIebjQWLDteayPymess9vJLwrNLBdXpO_LIPidvU5s8lhzL
+ vKHe_dJN5XfDRuRNNSGjSMVCWTtBM19XLkF0DwkYIqrxIhbKXWdaD_hnSUCN
+ R33VZ1bgbUveaYuOuFgHw8RD2HYkizhT2ruEZDO1TQ8mIxjGUgqMvVGjnmzP
+ fDtkkGmcWh3C5Z6LXe9THxbo911lz_7N8yNH5B1jcl.CJkPtDhotvehZhndH
+ t_7Di.WP1z_aZAL9evCTjrPLteueuQ58O.dk7mE2I9.KISL6ATdR9plnxK6Q
+ 8nUkXyR2AYhcmAu_nV8vTICyVTbL0.b.6cNj1g.R2kiYzwuZQrpmIXnjrlx7
+ uVAQXX7YI_2HzvSGZCqAgHi9jhdR1W2JIfcVz7PmMJdsTvW9DfuVzXwgUoio
+ 0MID4Y2jEOhJ4G3cK1Yc_fwduWee91Tg618WPbxe5egVJQ.qpsq9MJsYmqTQ
+ 3EB8fSojSgdin1f_Lxp_NqjFMQYIQ2wCtFUArXcNvfUqa9jLUWHm79qPTec7
+ LwJsLdp_HWToTDA.wAHAJNztTsMBRfuPukoiDxURwPaiTItcmQAgM26Rf_n1
+ TC1tSjqEUslS0kigBLm0FrlDoGm0fjySVIOXTrkCKeeQxuuaJ4Yh.EJ5c2j9
+ Ri79u6fkW6oYcy.P_Ga4B8NI6lsK0o_0fYNWEZH_9PJ8XdbK0KrkqxwVUZM5
+ xZsMuv8nX5yNJsW6VeTtpzOOiPwlTD32oqZ8mLt6lWm9Ic_yJq8IzULY2fhg
+ P.TbVtzaaiUMbCFlLdzPXZogpqzC.5T_7Vh6tXEMvH5dHMOb4vMbwdbO.kbK
+ AhyMAI1u8Wxu3DYfBu4h_L_5PeBqJT84FlQKM76cFcRO0caDx.17ieDvS0LG
+ rCkDvu6vOTJ6cyPqDd.qA5l2IlsSB3cijj_xZ5Z9Xclu9hM4XP49JV7hkTxA
+ NgqOJ1dx2U20sVEhxRdqwVC1y.tP5WoT8KP8QI.zz.Ggw.kGl7hryVnl6IYP
+ ay6NSHSAqrxcIlnAsvJIQAqh3TL0Sm1B56swUTi6yRjXr252BoLGuXgxjRh.
+ M3gcxpzM2q0Ynp8udBeGf.aYJHlCdRI94YsnPiifzSrgdXGZ3p39_OhDy7JK
+ zbdD5XHP05ottuRz4B8XiNrrhWTE8Sy2G21iM0gAe8vkmgYcGTjklq5mko_o
+ fX5HMEzZWklohxjp1GUFePGLWX0nVyCoRBAo_pO228lxtGPjvFy021ExpJfM
+ 3wo0K5luTEkJA8voQ2cIekZQ834uAMP1_Q1iR1xSgORaKnyN5ul9dnwkom56
+ Th8Dxryzyz3iEBC0wIMW7fgSFpUUNgXKhlxmPA0xZA8qy7BwXd8Sxkc4tfjI
+ MD_6Ez6ASyWgmUVsgy_vhquVVa12XD0LR.DJawjku5mWelgWT_mXpju5gw--
+X-Originating-IP: [209.85.220.177]
+Authentication-Results: mta1275.mail.ne1.yahoo.com  from=gmail.com; domainkeys=neutral (no sig);  from=gmail.com; dkim=pass (ok)
+Received: from 127.0.0.1  (EHLO mail-vc0-f177.google.com) (209.85.220.177)
+  by mta1275.mail.ne1.yahoo.com with SMTPS; Thu, 03 Jul 2014 09:18:01 +0000
+Received: by mail-vc0-f177.google.com with SMTP id ij19so11199561vcb.22
+        for <example@yahoo.com>; Thu, 03 Jul 2014 02:18:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=6HmRAaEv3nl0B1jy4abuzeZtJ5XvPxwQJCkXSTml4cM=;
+        b=FKT8SgWb5kaAQjbBmQAUdRerfXQrsrHB1tgDxnj8m3xr3/hA/gpioX1xNIxTu4MzLa
+         3F5UyL3kUCnQ4OmGnLs+rEzeWj6c1IgfOP/F+5R7JcK4MBiDzs/ooS5TXKEqH2jwXifr
+         MKksYlsL3GEZpMCMgxqlSNNiUAgcaD8m7xD3g+X9uwE82PkGLd7DiMZBUxppyHLm/rvB
+         QSIxgf7tXvhBabyRYrRQnbgR3gQiksS1VaCDTWM1oZmjnCOModGbSlQlrRXZZ1mQOji8
+         NX3FCwmQCQJleqFOr3dMB19/p4qD7FLNC1pxiDfuMpyI0l6ihVycgvDgaRN38iSiYxZu
+         +UAg==
+MIME-Version: 1.0
+X-Received: by 10.58.150.100 with SMTP id uh4mr581132veb.30.1404379080962;
+ Thu, 03 Jul 2014 02:18:00 -0700 (PDT)
+Received: by 10.220.225.74 with HTTP; Thu, 3 Jul 2014 02:18:00 -0700 (PDT)
+Date: Thu, 3 Jul 2014 11:18:00 +0200
+Message-ID: <CAD-fFhjp9TYS6G=oY2W12NQ-EKMTMPbuvWoXZhNuj+1nQU8a4g@mail.gmail.com>
+Subject: testing
+From: Example Example <example@gmail.com>
+To: Undisclosed recipients <example@yahoo.com>
+Content-Type: multipart/alternative; boundary=047d7b670b3740392604fd467c48
+X-IMAPbase: 1404379204 1
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+--047d7b670b3740392604fd467c48
+Content-Type: text/plain; charset=UTF-8
+
+gmail->yahoo->m2p
+
+--047d7b670b3740392604fd467c48
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">gmail-&gt;yahoo-&gt;m2p
+</div>
+
+--047d7b670b3740392604fd467c48--
+

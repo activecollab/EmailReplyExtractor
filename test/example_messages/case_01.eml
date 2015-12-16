@@ -1,0 +1,1024 @@
+From MAILER-DAEMON Fri Jul  8 12:08:34 2011
+Return-Path: <example@gmail.com>
+Received: from Examples-iMac.local (cable-188-2-86-185.dynamic.sbb.rs. [188.2.86.185])
+        by mx.google.com with ESMTPS id ev10sm157519wid.10.2012.05.03.07.32.26
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 03 May 2012 07:32:27 -0700 (PDT)
+Date: Thu, 3 May 2012 16:32:24 +0200
+From: Example Example <example@gmail.com>
+To: example@afiveone.activecollab.net
+Message-ID: <0B61524F4F0F4A468CBDDD39B60AEF29@gmail.com>
+In-Reply-To: <1336055041.4fa29501a8c78@swift.generated>
+References: <1336055041.4fa29501a8c78@swift.generated>
+Subject: Re: New comment on 'Collapse quoted content' task
+ {TASK/68/1207}
+X-Mailer: sparrow 1.5 (build 1043.1)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="4fa296f8_60ef0119_4750"
+X-IMAPbase: 1336572630 1
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+--4fa296f8_60ef0119_4750
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+=C5=A0ta =C4=87emo sa ekipom koja je koristila lokalizaovani reply above =
+this line=3F =20
+
+-- =20
+Example Example
+
+http://www.activecollab.com, Powerful project collaboration solution, on =
+your server
+
+
+On Thursday, May 3, 2012 at 4:24 PM, Example Example wrote:
+
+> -- REPLY ABOVE THIS LINE --
+> =20
+> A51 Projects
+> Task:
+> Collapse quoted content (https://afiveone.activecollab.net/projects/act=
+ivecollab/tasks/1207)
+> =20
+> Project:
+> activeCollab (https://afiveone.activecollab.net/projects/activecollab)
+> =20
+> Category:
+> Enhancement Requests (https://afiveone.activecollab.net/projects/active=
+collab/tasks/categories/219)
+> =20
+> =20
+> =20
+> =20
+> See this Task in Browser (https://afiveone.activecollab.net/projects/ac=
+tivecollab/tasks/1207)
+> Created by
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/1)
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/=
+3) May 03. 2012 =20
+> =20
+> uh, uzeo sam pogresan primer, ovo je reply na notifikaciju sa novim sis=
+temom.
+> Ono shto mi se cini kao resenje je ipak da se prodje kroz te objekte i =
+proveri da li postoji unutar blockquote-a -- REPLY ABOVE THIS LINE -- i a=
+ko postoji da se taj blockquote ukloni.
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/1) May 0=
+3. 2012 =20
+> =20
+> To bi moglo da se izvede - jedna upgrade akcija za komentere, jedna za =
+project objekte i to bi pokrilo sve situacije koje je stari sistem imao=E2=
+=80=A6 Bilo bi ba=C5=A1 lepo da sve po=C4=8Distimo, samo da ne skucamo up=
+grade skriptu :)
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/=
+3) May 03. 2012 =20
+> =20
+> E, ovo je primer kako je izgledao body jednog importovanog maila
+> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27=
+ 28 29 30 31 32 33 34 35 36 37
+> =20
+> Nemoj zatvarati nego labeluj kao BLOCKED da se zna da i dalje postoji p=
+roblem. On Dec 12, 2011, at 3:15 PM, Example Example wrote: <blockquote=
+> &gt; A51 projects &gt; Task: =46avorite icon not being updated properly=
+ &gt; Project: activeCollab &gt; &gt; Task made by &gt; Example Da=C4=8Di=C4=
+=87 &gt; &gt; Example Example Dec 12. 2011 &gt; Ja mislim da ovo moze d=
+a se zatvori jer smo se dogovorili da ce se ovo resiti kasnije... &gt; &g=
+t; &gt; Example Example Dec 08. 2011 &gt; Awaiting instructions... &gt;=
+ &gt; &gt; Example Example Dec 08. 2011 &gt; Zapo=C4=8Deo je disku=
+siju vezanu za to. &gt; &gt; &gt; Example Example Dec 08. 2011 &gt; Ovo treb=
+a malo elegantnije da se re=C5=A1i, po=C5=A1to Options drop-down jo=C5=A1=
+ uvek ne slu=C5=A1a nikakve evente pa mu i ne mo=C5=BEe=C5=A1 re=C4=87i d=
+a ne=C5=A1to izmeni. Mislim da je Example negde i postavio pitanje ve=
+zano za to, ali ne mogu da vidim u koji task... &gt; &gt; &gt; Example Da=C4=
+=8Di=C4=87 Dec 08. 2011 &gt; Sada radi kako treba u jednom pravcu, ali u =
+drugom ne tj. kada se klikom na ikonicu na stranici objekat doda/ukloni i=
+z omiljenih vrednost u options meniju se ne a=C5=BEurira adekvatno &gt; &=
+gt; &gt; &gt; Powered by activeCollab &gt; </blockquote>
+> =20
+> =20
+> Shto znaci da treba da nadjem sve project objecte sa source-om 'email' =
+koji sadrze blockquot-ove cija svaka linija pocinje sa > ili &gt; i strip=
+ujem ih
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/1) May 0=
+3. 2012 =20
+> =20
+> Will do
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/=
+3) May 03. 2012 =20
+> =20
+> ubuduce mi assignuj odmah ove zadatke da ih kasnije ne trazim
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/1) May 0=
+2. 2012 =20
+> =20
+> Treba overiti activeCollab 2 kod
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/=
+3) May 02. 2012 =20
+> =20
+> to bi bas olaksalo resavanje problema.
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/1) May 0=
+2. 2012 =20
+> =20
+> Dodavana im je neka klasa ako se ne varam...
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/=
+3) May 02. 2012 =20
+> =20
+> Da da, koristim mail headere da bih znao ko je email sender, mada misli=
+m da prakticno treba da provalim kako sam u ac2 kolapsovao quote, i tom i=
+stom logikom da kolapsujem sada, poshto nisam svaki blockquote collapsova=
+o u ac2, barem mislim
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Example Example (https://afiveone.activecollab.net/people/1/users/=
+3) May 02. 2012 =20
+> =20
+> jesi li ti uklonio ono polje 'source' project objecta=3F
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> Powered by activeCollab
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+
+
+
+--4fa296f8_60ef0119_4750
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+
+                <div>
+                    =C5=A0ta =C4=87emo sa ekipom koja je koristila lokali=
+zaovani reply above this line=3F
+                </div>
+                <div><div><br></div>--&nbsp;<br>Example Example<div><br><div=
+>http://www.activecollab.com,&nbsp;Powerful project collaboration solutio=
+n, on your server</div></div><div><br></div></div>
+                =20
+                <p style=3D=22color: =23A0A0A8;=22>On Thursday, May 3, 20=
+12 at 4:24 PM, Example Example wrote:</p>
+                <blockquote type=3D=22cite=22 style=3D=22border-left-styl=
+e:solid;border-width:1px;margin-left:0px;padding-left:10px;=22>
+                    <span><div><div><div style=3D=22background-color: rgb=
+(239, 241, 231); background-position: 0% 24px; background-repeat: repeat =
+no-repeat; =22><div style=3D=22text-transform: uppercase; line-height: 22=
+px; =20
+color: =23a3a59f; text-align: center; padding-top: 1px=22><img src=3D=22h=
+ttps://afiveone.activecollab.net/assets/images/email/default/email/reply-=
+above.png=22 style=3D=22margin-right: 7px=22>-- REPLY ABOVE THIS LINE --<img sr=
+c=3D=22https://afiveone.activecollab.net/assets/images/email/default//ema=
+il/reply-above.png=22 style=3D=22margin-left: 7px=22></div><div style=3D=22=
+border-top: 1px solid =20
+=23d7d8cf=22><div style=3D=22text-align: center; padding-top: 20px;=22><i=
+mg src=3D=22https://afiveone.activecollab.net/brand/logo.80x80.png=22 alt=
+=3D=22A51 =20
+Projects=22 style=3D=22vertical-align: middle; height: 60px=22><br><span =
+style=3D=22font-size: 13px; font-weight: bold=22>A51 Projects</span></div=
+><div style=3D=22margin-bottom: 10px; text-align: center; max-width: 1200=
+px; =20
+margin-left: auto; margin-right: auto=22>
+      <table cellspacing=3D=220=22 cellpadding=3D=220=22 style=3D=22width=
+: 100%; text-align: =20
+left; margin: 0px auto;=22>
+        <tbody><tr>
+    	  <td align=3D=22left=22 valign=3D=22top=22 style=3D=22width:35%; pa=
+dding: 10px 30px=22>
+    		  <table cellspacing=3D=223=22 border=3D=220=22><tbody><tr>
+				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22width:100px;font=
+:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>Task:</td>
+				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11px Lucida=
+ =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22><a href=3D=22https://afiveo=
+ne.activecollab.net/projects/activecollab/tasks/1207=22 style=3D=22color:=
+ =23950000;font-weight: normal;cursor: pointer;text-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Colla=
+pse =20
+quoted content</a></td>
+			</tr><tr>
+				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22width:100px;font=
+:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>Project:</td>
+				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11px Lucida=
+ =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22><a href=3D=22https://afiveo=
+ne.activecollab.net/projects/activecollab=22 style=3D=22color: =20
+=23950000;font-weight: normal;cursor: pointer;text-decoration: none;font:=
+11px =20
+Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>activeCollab</a></td=
+>
+			</tr><tr>
+				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22width:100px;font=
+:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>Category:</td>
+				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11px Lucida=
+ =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22><a href=3D=22https://afiveo=
+ne.activecollab.net/projects/activecollab/tasks/categories/219=22 style=3D=
+=22color: =23950000;font-weight: normal;cursor: pointer;text-decoration: =
+=20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Enhan=
+cement =20
+Requests</a></td>
+			</tr></tbody></table>
+    	</td><td align=3D=22center=22 style=3D=22vertical-align: middle; wid=
+th: 30%=22><a href=3D=22https://afiveone.activecollab.net/projects/active=
+collab/tasks/1207=22 target=3D=22=5Fblank=22 style=3D=22background-attach=
+ment: initial; background-origin: initial; background-clip: initial; back=
+ground-color: rgb(255, 255, 255); border-top-width: 1px; border-right-wid=
+th: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-sty=
+le: solid; border-right-style: solid; border-bottom-style: solid; border-=
+left-style: solid; border-top-color: rgb(217, 217, 209); border-right-col=
+or: rgb(217, 217, 209); border-bottom-color: rgb(217, 217, 209); border-l=
+eft-color: rgb(217, 217, 209); border-top-left-radius: 13px; border-top-r=
+ight-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-r=
+adius: 13px; padding-top: 5px; padding-right: 12px; padding-bottom: 4px; =
+padding-left: 25px; color: rgb(85, 85, 85); text-decoration: none; backgr=
+ound-position: 5px 50%; background-repeat: no-repeat no-repeat; =22>See t=
+his Task =20
+in Browser</a></td><td align=3D=22right=22 valign=3D=22top=22 style=3D=22=
+width: 35%; =20
+vertical-align:middle;padding: 10px 30px 10px 10px=22><table cellspacing=3D=
+=220=22 border=3D=220=22 style=3D=22vertical-align:middle;=22>
+  			<tbody><tr>
+  				<td align=3D=22right=22 valign=3D=22middle=22 style=3D=22vertical-a=
+lign:middle; =20
+padding-right: 7px;=22>
+  					<table cellspacing=3D=220=22 border=3D=220=22>
+  						<tbody><tr>
+  							<td align=3D=22right=22 valign=3D=22top=22 style=3D=22font:11px =
+Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>Created by</td>
+  						</tr>
+  						<tr>
+  							<td align=3D=22right=22 valign=3D=22top=22><a href=3D=22https://=
+afiveone.activecollab.net/people/1/users/1=22 style=3D=22color: =20
+=23950000;font-weight: normal;cursor: pointer;text-decoration: none;font:=
+11px =20
+Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example Example</a></td=
+>
+  						</tr>
+  					</tbody></table>
+  				</td>
+  				<td align=3D=22center=22 valign=3D=22middle=22 style=3D=22width: 40=
+px;=22><a href=3D=22https://afiveone.activecollab.net/people/1/users/1=22=
+><img src=3D=22https://afiveone.activecollab.net/avatars/1.40x40.png=3Fti=
+me=3D1335999540=22 style=3D=22vertical-align:top;=22></a></td>
+  			</tr>
+  		</tbody></table></td></tr></tbody></table></div>
+<div style=3D=22max-width: 1200px; min-width: 800px; margin: 0px auto; pa=
+dding: =20
+0px 15px=22><table cellspacing=3D=220=22 cellpadding=3D=220=22 style=3D=22=
+width: 100%; border: =20
+1px solid =23EEE=46EC; background-color :=23E=46=461E7=22>
+    <tbody><tr>
+    	<td align=3D=22center=22 valign=3D=22top=22 style=3D=22font:11px Luc=
+ida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22><div style=3D=22text-align:=
+left;padding:10px 15px;border-left:1px solid =20
+=23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px solid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23=464=467C0;=
+border-top:1px =20
+solid =23D7D9C=46;=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/3.40x40.png=3Ftime=3D1=
+335390095=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 03. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><p>uh, u=
+zeo =20
+sam pogresan primer, ovo je reply na notifikaciju sa novim =20
+sistemom.</p><p>Ono shto mi se cini kao resenje je ipak da se prodje kroz=
+ te =20
+objekte i proveri da li postoji unutar blockquote-a -- REPLY ABOVE THIS L=
+INE =20
+-- i ako postoji da se taj blockquote ukloni.</p></td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/1.40x40.png=3Ftime=3D1=
+335999540=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 03. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>To bi mo=
+glo da =20
+se izvede - jedna upgrade akcija za komentere, jedna za project objekte i=
+ to =20
+bi pokrilo sve situacije koje je stari sistem imao=E2=80=A6 Bilo bi ba=C5=
+=A1 lepo da =20
+sve po=C4=8Distimo, samo da ne skucamo upgrade skriptu :)</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/3.40x40.png=3Ftime=3D1=
+335390095=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 03. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><p>E, ov=
+o je =20
+primer kako je izgledao body jednog importovanog maila</p><div><div><pre>=
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37</pre></div><div><pre>Nemoj zatvarati nego =20
+labeluj kao BLOCKED da se zna da i dalje postoji problem.
+
+On Dec 12, 2011, at 3:15 PM, Example Example wrote:
+
+&lt;blockquote&gt;
+
+&amp;gt; A51 projects
+&amp;gt; Task:	=46avorite icon not being updated properly =20
+&amp;gt; Project:	activeCollab
+&amp;gt; 	=09
+&amp;gt; Task made by
+&amp;gt; Example Example
+&amp;gt; 	=09
+&amp;gt; Example Example Dec 12. 2011
+&amp;gt; Ja mislim da ovo moze da se zatvori jer smo se dogovorili da ce =
+se =20
+ovo resiti kasnije...
+&amp;gt; =20
+&amp;gt; 	=09
+&amp;gt; Example Example Dec 08. 2011       						=09
+&amp;gt; Awaiting instructions...
+&amp;gt; =20
+&amp;gt; 	=09
+&amp;gt; Example Example Dec 08. 2011
+&amp;gt; Zapo=C4=8Deo je diskusiju vezanu za to.
+&amp;gt; =20
+&amp;gt; 	=09
+&amp;gt; Example Example Dec 08. 2011
+&amp;gt; Ovo treba malo elegantnije da se re=C5=A1i, po=C5=A1to Options d=
+rop-down =20
+jo=C5=A1 uvek ne slu=C5=A1a nikakve evente pa mu i ne mo=C5=BEe=C5=A1 re=C4=
+=87i da ne=C5=A1to izmeni. =20
+Mislim da je Example negde i postavio pitanje vezano za to, ali ne mo=
+gu da =20
+vidim u koji task...
+&amp;gt; =20
+&amp;gt; 	=09
+&amp;gt; Example Example Dec 08. 2011
+&amp;gt; Sada radi kako treba u jednom pravcu, ali u drugom ne tj. kada s=
+e =20
+klikom na ikonicu na stranici objekat doda/ukloni iz omiljenih vrednost u=
+ =20
+options meniju se ne a=C5=BEurira adekvatno
+&amp;gt; =20
+&amp;gt; =20
+&amp;gt; =20
+&amp;gt; Powered by activeCollab
+&amp;gt;
+&lt;/blockquote&gt;</pre></div></div><p>Shto znaci da treba da nadjem sve=
+ =20
+project objecte sa source-om 'email' koji sadrze blockquot-ove cija svaka=
+ =20
+linija pocinje sa &gt; ili &amp;gt; i stripujem ih</p></td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/1.40x40.png=3Ftime=3D1=
+335999540=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 03. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Will do<=
+/td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/3.40x40.png=3Ftime=3D1=
+335390095=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 03. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>ubuduce =
+mi =20
+assignuj odmah ove zadatke da ih kasnije ne trazim</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/1.40x40.png=3Ftime=3D1=
+335999540=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 02. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Treba ov=
+eriti =20
+activeCollab 2 kod</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/3.40x40.png=3Ftime=3D1=
+335390095=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 02. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>to bi ba=
+s =20
+olaksalo resavanje problema.</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/1.40x40.png=3Ftime=3D1=
+335999540=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/1=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 02. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Dodavana=
+ im je =20
+neka klasa ako se ne varam...</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/3.40x40.png=3Ftime=3D1=
+335390095=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 02. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Da da, =20
+koristim mail headere da bih znao ko je email sender, mada mislim da =20
+prakticno treba da provalim kako sam u ac2 kolapsovao quote, i tom istom =
+=20
+logikom da kolapsujem sada, poshto nisam svaki blockquote collapsovao u a=
+c2, =20
+barem mislim</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div><div style=3D=22text-align:left;padding:10px 15px;border-left=
+:1px =20
+solid =23D7D9C=46;border-right:1px solid =23D7D9C=46;border-bottom:1px so=
+lid =20
+=23D7D9C=46;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;background-color:=23E=46=461E7;=
+=22>
+  			<table cellspacing=3D=220=22 cellpadding=3D=220=22 border=3D=220=22 =
+style=3D=22vertical-align:middle=22>
+      			<tbody><tr>
+      				<td align=3D=22left=22 valign=3D=22middle=22 style=3D=22margin:=
+ 5px; width: 60px; =20
+font: 11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif; vertical-ali=
+gn: =20
+top=22>
+      					<a href=3D=22https://afiveone.activecollab.net/people/1/users/=
+3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;text=
+-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22><img =
+src=3D=22https://afiveone.activecollab.net/avatars/3.40x40.png=3Ftime=3D1=
+335390095=22 style=3D=22vertical-align:top;=22></a>
+      					=09
+      				</td>
+      				<td align=3D=22left=22 valign=3D=22top=22 style=3D=22vertical-a=
+lign:middle;=22>
+      					<table cellspacing=3D=220=22 border=3D=220=22>
+      						<tbody><tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22font:11=
+px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>
+      							<a href=3D=22https://afiveone.activecollab.net/people/1/user=
+s/3=22 style=3D=22color: =23950000;font-weight: normal;cursor: pointer;te=
+xt-decoration: =20
+none;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>Example=
+ =20
+Example</a>
+      							<span style=3D=22font-size:9px;color:=2391918D;margin-left:2=
+0px;font:9px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>May 02. 2012</span>
+      						</td>
+      						</tr>
+      						<tr>
+      							<td align=3D=22left=22 valign=3D=22top=22 style=3D=22padding=
+:8px 0 8px =20
+0;font:11px Lucida Grande,Verdana,Arial,Helvetica,sans-serif;=22>jesi li =
+ti =20
+uklonio ono polje 'source' project objecta=3F</td>
+      						</tr></tbody></table>
+      				</td>
+      			</tr>
+      		</tbody></table>
+  		  </div></td></tr></tbody></table></div><div style=3D=22padding: 25px=
+ 0px 25px =20
+0px=22><p style=3D=22text-align: center=22>Powered by  <a href=3D=22activ=
+eCollab=22 target=3D=22=5Fblank=22 style=3D=22color: =23950000;font-weigh=
+t: normal;cursor: =20
+pointer;text-decoration: none;font:11px Lucida =20
+Grande,Verdana,Arial,Helvetica,sans-serif;=22>activeCollab</a></p></div><=
+/div></div>
+</div></div></span>
+                =20
+                =20
+                =20
+                =20
+                </blockquote>
+                =20
+                <div>
+                    <br>
+                </div>
+            
+--4fa296f8_60ef0119_4750--
+

@@ -1,0 +1,497 @@
+From MAILER-DAEMON Fri Jul  8 12:08:34 2011
+Return-Path: <example@hushmail.com>
+Delivered-To: example@activecollab.com
+Received: from localhost (localhost [127.0.0.1])
+	by vito.activecollab.com (Postfix) with ESMTP id 276981008E8
+	for <example@activecollab.com>; Tue, 19 Mar 2013 12:23:30 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at vito.activecollab.com
+Received: from vito.activecollab.com ([127.0.0.1])
+	by localhost (vito.activecollab.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id c-oV5fqOT5B5 for <example@activecollab.com>;
+	Tue, 19 Mar 2013 12:23:27 +0100 (CET)
+Received: from smtp5.hushmail.com (smtp5a.hushmail.com [65.39.178.235])
+	by vito.activecollab.com (Postfix) with ESMTPS id 071461008DE
+	for <example@activecollab.com>; Tue, 19 Mar 2013 12:23:27 +0100 (CET)
+Received: from smtp5.hushmail.com (smtp5a.hushmail.com [65.39.178.235])
+	by smtp5.hushmail.com (Postfix) with SMTP id 4F7AF583B6
+	for <example@activecollab.com>; Tue, 19 Mar 2013 11:23:26 +0000 (UTC)
+Received: from smtp.hushmail.com (w7.hushmail.com [65.39.178.32])
+	by smtp5.hushmail.com (Postfix) with ESMTP
+	for <example@activecollab.com>; Tue, 19 Mar 2013 11:23:26 +0000 (UTC)
+Received: by smtp.hushmail.com (Postfix, from userid 99)
+	id 1E7AD6F446; Tue, 19 Mar 2013 11:23:26 +0000 (UTC)
+MIME-Version: 1.0
+Date: Tue, 19 Mar 2013 12:23:25 +0100
+To: example@activecollab.com
+Subject: Re: [DJ project] Discussion 'hushmail.com test diskusija' has been started {DISCUSSION/79}
+From: example@hushmail.com
+In-Reply-To: <1363681167.51481f8f39506@example.tryactivecollab.com>
+Content-Type: multipart/alternative;
+	boundary="=_c9e315574373ca97c8b9a4d19b6a72a5"
+Message-Id: <20130319112326.1E7AD6F446@smtp.hushmail.com>
+X-IMAPbase: 1363807946 1
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+--=_c9e315574373ca97c8b9a4d19b6a72a5
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="UTF-8"
+
+Email Reply
+
+On 03/19/2013 at 9:19 AM, "Example"  wrote:Email  Notification#outlook a
+{ padding:0; } body { width:100%!important; margin:0; padding:0; }
+.ExternalClass { width:100%; } .ExternalClass,.ExternalClass
+p,.ExternalClass span,.ExternalClass font,.ExternalClass
+td,.ExternalClass div { line-height:100%; } #backgroundTable {
+width:100%!important; line-height:100%!important; margin:0; padding:0;
+} img { text-decoration:none; } a img { border:none; } .image_fix {
+display:block; } p { line-height:14px!important; margin:1em 0; }
+h1,h2,h3,h4,h5,h6 { color:#000!important; } h1 a,h2 a,h3 a,h4 a,h5
+a,h6 a { color:blue!important; } h1 a:active,h2 a:active,h3
+a:active,h4 a:active,h5 a:active,h6 a:active { color:red!important; }
+h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6
+a:visited { color:purple!important; } table td,table {
+border-collapse:collapse; } @media only screen and max-device-width
+480px { table[id=greetings],table[id=attachment] {
+width:auto!important; } a[href^=tel],a[href^=sms] {
+text-decoration:none; color:#000; } .mobile_link
+a[href^=tel],.mobile_link a[href^=sms] { color:orange!important; }
+table[id=mainTable],td[id=mainContent] { width:auto!important;
+max-width:656px!important; } #mainContent { padding:20px
+5px!important; } td[id=mainContent] { padding:20px 5px; }
+td[class=avatar] img { width:30px!important; height:30px!important; }
+td[class=avatar] { padding-left:5px!important;
+padding-right:5px!important; width:30px; } td[class=branding] img {
+width:40px; height:40px; } td[class=branding] {
+padding-left:5px!important; padding-right:5px!important; }
+table[id=inspector] { padding-left:5px!important;
+padding-right:5px!important; width:auto!important; }
+table[id=createdBy] { width:100px!important; } td[id=content] {
+padding:10px!important; } td[id=content] td { padding:5px!important; }
+td[id=content] img { max-width:270px; } } @media only screen and
+min-device-width 481px and max-device-width 768px {
+table[id=greetings],table[id=attachment] { width:auto!important; }
+a[href^=tel],a[href^=sms] { text-decoration:none; color:blue; }
+.mobile_link a[href^=tel],.mobile_link a[href^=sms] {
+color:orange!important; } table[id=mainTable],td[id=mainContent] {
+width:auto!important; max-width:656px!important; } } @media only
+screen and min-device-width 768px and max-device-width 1024px {
+a[href^=tel],a[href^=sms] { text-decoration:none; color:blue; }
+.mobile_link a[href^=tel],.mobile_link a[href^=sms] {
+color:orange!important; } #mainTable,#mainContent {
+width:auto!important; max-width:656px!important; }
+table[id=attachment],table[id=inspector] { width:auto!important; } }
+@media only screen and -webkit-min-device-pixel-ratio 2 {
+table[id=mainTable],td[id=mainContent] { width:auto!important;
+max-width:656px!important; }
+table[id=greetings],table[id=attachment],table[id=inspector] {
+width:auto!important; } } @media only screen and
+-webkit-device-pixel-ratio75 { table[id=mainTable],td[id=mainContent]
+{ width:auto!important; max-width:656px!important; }
+table[id=greetings],table[id=attachment],table[id=inspector] {
+width:auto!important; } } @media only screen and max-device-width
+480px and -webkit-device-pixel-ratio1 {
+table[id=greetings],table[id=attachment] { width:auto!important; }
+table[id=inspector] { width:auto!important;
+padding-left:5px!important; padding-right:5px!important; }
+table[id=mainTable],td[id=mainContent] { width:auto!important;
+max-width:656px!important; } td[id=mainContent] { padding:20px
+5px!important; } td[class=avatar] img { width:30px!important;
+height:30px!important; } td[class=avatar] {
+padding-left:5px!important; padding-right:5px!important; width:30px; }
+td[class=branding] img { width:40px; height:40px; } td[class=branding]
+{ padding-left:5px!important; padding-right:5px!important; }
+table[id=createdBy] { width:100px!important; } } @media only screen
+and -webkit-device-pixel-ratio15 {
+table[id=mainTable],td[id=mainContent] { width:auto!important;
+max-width:656px!important; }
+table[id=greetings],table[id=attachment],table[id=inspector] {
+width:auto!important; } } 
+		-- REPLY ABOVE THIS LINE --
+		Hi Bandic,Discussion Created
+
+Projects
+	Example Example has just created "hushmail.com test diskusija"
+discussion   
+
+	da vidimo kako cemo ovo da testiramo, pa  da se dogovaramo dalje. 
+Example  Example.vcf3.35kb
+		Open this discussion in Your  Web  Browser
+		Discussion:
+		hushmail.com test  diskusija
+		Category:
+		General
+		Project:
+		DJ project - Test  Milestone
+Created by
+ Example  M.		
+		Stop receiving email notifications about this  discussion.
+		©2013 by Owner Company. Powered by: activeCollab.
+
+--=_c9e315574373ca97c8b9a4d19b6a72a5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<span style=3D"font-family: Arial; font-size: 13px;">Email Reply<br><br>On 03/19/2013 at 9:19 AM, "Example" &lt;example@gm=
+ail.com&gt; wrote:<blockquote style=3D"border-left:solid 1px #ccc;margin-le=
+ft:10px;padding-left:10px;"><div><div><title>Email=20
+Notification</title><style type=3D"text/css">#outlook a {
+padding:0;
+}
+
+body {
+width:100%!important;
+margin:0;
+padding:0;
+}
+
+=2EExternalClass {
+width:100%;
+}
+
+=2EExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.=
+ExternalClass td,.ExternalClass div {
+line-height:100%;
+}
+
+#backgroundTable {
+width:100%!important;
+line-height:100%!important;
+margin:0;
+padding:0;
+}
+
+img {
+text-decoration:none;
+}
+
+a img {
+border:none;
+}
+
+=2Eimage_fix {
+display:block;
+}
+
+p {
+line-height:14px!important;
+margin:1em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+color:#000!important;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+color:blue!important;
+}
+
+h1 a:active,h2 a:active,h3 a:active,h4 a:active,h5 a:active,h6 a:active {
+color:red!important;
+}
+
+h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visit=
+ed {
+color:purple!important;
+}
+
+table td,table {
+border-collapse:collapse;
+}
+
+@media only screen and max-device-width 480px {
+table[id=3Dgreetings],table[id=3Dattachment] {
+width:auto!important;
+}
+
+a[href^=3Dtel],a[href^=3Dsms] {
+text-decoration:none;
+color:#000;
+}
+
+=2Emobile_link a[href^=3Dtel],.mobile_link a[href^=3Dsms] {
+color:orange!important;
+}
+
+table[id=3DmainTable],td[id=3DmainContent] {
+width:auto!important;
+max-width:656px!important;
+}
+
+#mainContent {
+padding:20px 5px!important;
+}
+
+td[id=3DmainContent] {
+padding:20px 5px;
+}
+
+td[class=3Davatar] img {
+width:30px!important;
+height:30px!important;
+}
+
+td[class=3Davatar] {
+padding-left:5px!important;
+padding-right:5px!important;
+width:30px;
+}
+
+td[class=3Dbranding] img {
+width:40px;
+height:40px;
+}
+
+td[class=3Dbranding] {
+padding-left:5px!important;
+padding-right:5px!important;
+}
+
+table[id=3Dinspector] {
+padding-left:5px!important;
+padding-right:5px!important;
+width:auto!important;
+}
+
+table[id=3DcreatedBy] {
+width:100px!important;
+}
+
+td[id=3Dcontent] {
+padding:10px!important;
+}
+
+td[id=3Dcontent] td {
+padding:5px!important;
+}
+
+td[id=3Dcontent] img {
+max-width:270px;
+}
+}
+
+@media only screen and min-device-width 481px and max-device-width 768px {
+table[id=3Dgreetings],table[id=3Dattachment] {
+width:auto!important;
+}
+
+a[href^=3Dtel],a[href^=3Dsms] {
+text-decoration:none;
+color:blue;
+}
+
+=2Emobile_link a[href^=3Dtel],.mobile_link a[href^=3Dsms] {
+color:orange!important;
+}
+
+table[id=3DmainTable],td[id=3DmainContent] {
+width:auto!important;
+max-width:656px!important;
+}
+}
+
+@media only screen and min-device-width 768px and max-device-width 1024px {
+a[href^=3Dtel],a[href^=3Dsms] {
+text-decoration:none;
+color:blue;
+}
+
+=2Emobile_link a[href^=3Dtel],.mobile_link a[href^=3Dsms] {
+color:orange!important;
+}
+
+#mainTable,#mainContent {
+width:auto!important;
+max-width:656px!important;
+}
+
+table[id=3Dattachment],table[id=3Dinspector] {
+width:auto!important;
+}
+}
+
+@media only screen and -webkit-min-device-pixel-ratio 2 {
+table[id=3DmainTable],td[id=3DmainContent] {
+width:auto!important;
+max-width:656px!important;
+}
+
+table[id=3Dgreetings],table[id=3Dattachment],table[id=3Dinspector] {
+width:auto!important;
+}
+}
+
+@media only screen and -webkit-device-pixel-ratio75 {
+table[id=3DmainTable],td[id=3DmainContent] {
+width:auto!important;
+max-width:656px!important;
+}
+
+table[id=3Dgreetings],table[id=3Dattachment],table[id=3Dinspector] {
+width:auto!important;
+}
+}
+
+@media only screen and max-device-width 480px and -webkit-device-pixel-rati=
+o1 {
+table[id=3Dgreetings],table[id=3Dattachment] {
+width:auto!important;
+}
+
+table[id=3Dinspector] {
+width:auto!important;
+padding-left:5px!important;
+padding-right:5px!important;
+}
+
+table[id=3DmainTable],td[id=3DmainContent] {
+width:auto!important;
+max-width:656px!important;
+}
+
+td[id=3DmainContent] {
+padding:20px 5px!important;
+}
+
+td[class=3Davatar] img {
+width:30px!important;
+height:30px!important;
+}
+
+td[class=3Davatar] {
+padding-left:5px!important;
+padding-right:5px!important;
+width:30px;
+}
+
+td[class=3Dbranding] img {
+width:40px;
+height:40px;
+}
+
+td[class=3Dbranding] {
+padding-left:5px!important;
+padding-right:5px!important;
+}
+
+table[id=3DcreatedBy] {
+width:100px!important;
+}
+}
+
+@media only screen and -webkit-device-pixel-ratio15 {
+table[id=3DmainTable],td[id=3DmainContent] {
+width:auto!important;
+max-width:656px!important;
+}
+
+table[id=3Dgreetings],table[id=3Dattachment],table[id=3Dinspector] {
+width:auto!important;
+}
+}</style>
+							=09
+								=09
+									=09
+									</div><div><table id=3D"backgroundTable" style=3D"font-family:Luci=
+da Grande, Verdana, Arial, Helvetica, sans-serif;" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td st=
+yle=3D"text-transform:uppercase;font-size:11px;height:20px;color:#A3A59F;te=
+xt-align:center;padding:5px 0;" align=3D"center">-- REPLY ABOVE THIS LINE -=
+-</td></tr><tr><td style=3D"border-bottom:1px solid #D7D8CF;height:1px;line=
+-height:1;margin:0;padding:0;"></td></tr><tr><td style=3D"padding:40px 20px=
+;" id=3D"mainContent" align=3D"center"><table id=3D"mainTable" style=3D"wid=
+th:654px;border-collapse:separate;border:1px solid #d0d2c9;text-align:left;=
+margin:0 auto;" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"654"><tbody><tr><td id=3D"content" style=3D"background-colo=
+r:#fff;padding:25px;"><table style=3D"font-family:Lucida Grande, Verdana, A=
+rial, Helvetica, sans-serif;font-size:12px;" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0"><tbody><tr><td><table style=3D"font-family:Lucida Grande=
+, Verdana, Arial, Helvetica, sans-serif;"><tbody><tr><td id=3D"greetings" w=
+idth=3D"600"><div style=3D"padding-bottom:15px;">Hi Bandic,</div><div style=
+=3D"font-size:28px;line-height:28px;padding-bottom:15px;">Discussion Create=
+d</div></td><td style=3D"text-align:center;width:100px;padding-bottom:15px;=
+" class=3D"branding" width=3D"100"><img src=3D"/preview/shared/images/blank=
+_image.gif"><br><span style=3D"font-size:14px;padding:0 0 10px;">Projects</=
+span></td></tr></tbody></table></td></tr><tr><td colspan=3D"2">
+  <p>Example Example has just created "<a style=3D"color:#950000;text-decorati=
+on:underline;" target=3D"_blank" href=3D"http://example.tryactivecollab=
+.com/projects/dj-project/discussions/79" onclick=3D"window.open('http://mar=
+iopa.tryactivecollab.com/projects/dj-project/discussions/79');return fa=
+lse;">hushmail.com test diskusija</a>" discussion</p>
+  <div style=3D"padding:5px 10px;"><p>da vidimo kako cemo ovo da testiramo,=
+ pa=20
+da se dogovaramo dalje.</p></div>
+</td></tr><tr><td><table width=3D"100%"><tbody><tr><td><table id=3D"attachm=
+ent" width=3D"100%"><tbody><tr><td style=3D"padding-bottom:15px;"><img src=
+=3D"/preview/shared/images/blank_image.gif"><a style=3D"margin-left:5px;col=
+or:#950000;text-decoration:underline;" target=3D"_blank" href=3D"http://exa=
+mple.tryactivecollab.com/projects/dj-project/discussions/79/attachments=
+/29/download?force=3D1&amp;disposition=3Dattachment" onclick=3D"window.open=
+('http://example.tryactivecollab.com/projects/dj-project/discussions/79=
+/attachments/29/download?force=3D1&amp;disposition=3Dattachment');return fa=
+lse;">Example=20
+Example.vcf</a><span style=3D"margin-left:5px;font-size:9px;color:#91918D;">=
+3.35kb</span><br></td></tr></tbody></table></td></tr><tr><td style=3D"text-=
+align:center;padding:10px 5px;" id=3D"openInBrowser" align=3D"center"><a st=
+yle=3D"color:#4b4b4b;text-decoration:none;text-align:center;background-colo=
+r:#eeeeed;font-size:11px;font-family:Lucida Grande, Verdana, Arial, Helveti=
+ca, sans-serif;border-color:#dedede;border-style:solid;border-width:1px;pad=
+ding:3px 10px;" target=3D"_blank" href=3D"http://example.tryactivecolla=
+b.com/projects/dj-project/discussions/79" onclick=3D"window.open('http://ex=
+ample.tryactivecollab.com/projects/dj-project/discussions/79');return f=
+alse;">Open this discussion in Your=20
+Web=20
+Browser</a></td></tr></tbody></table></td></tr></tbody></table></td></tr><t=
+r><td style=3D"height:1px;line-height:1px;border-bottom:1px solid #d7d8cf;"=
+ height=3D"1"></td></tr><tr><td><table style=3D"border-collapse:separate;pa=
+dding:15px;" id=3D"inspector" align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0"><tbody><tr><td style=3D"text-align:left;width:624px;">=
+<table style=3D"font-family:Lucida Grande, Verdana, Arial, Helvetica, sans-=
+serif;font-size:12px;line-height:16px;" align=3D"left" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0"><tbody><tr><td style=3D"width:80px;vertical-al=
+ign:top;padding:3px 2px 4px 4px;">Discussion:</td><td style=3D"vertical-ali=
+gn:top;width:auto!important;padding:2px;"><a style=3D"color:#950000;text-de=
+coration:underline;" target=3D"_blank" href=3D"http://example.tryactive=
+collab.com/projects/dj-project/discussions/79" onclick=3D"window.open('http=
+://example.tryactivecollab.com/projects/dj-project/discussions/79');ret=
+urn false;">hushmail.com test=20
+diskusija</a></td></tr><tr><td style=3D"width:80px;vertical-align:top;paddi=
+ng:3px 2px 4px 4px;">Category:</td><td style=3D"vertical-align:top;width:au=
+to!important;padding:2px;">General</td></tr><tr><td style=3D"width:80px;ver=
+tical-align:top;padding:3px 2px 4px 4px;">Project:</td><td style=3D"vertica=
+l-align:top;width:auto!important;padding:2px;"><a style=3D"color:#950000;te=
+xt-decoration:underline;" target=3D"_blank" href=3D"http://example.trya=
+ctivecollab.com/projects/dj-project" onclick=3D"window.open('http://example
+.tryactivecollab.com/projects/dj-project');return false;">DJ project</a=
+> - <a style=3D"color:#950000;text-decoration:underline;" target=3D"_blank"=
+ href=3D"http://example.tryactivecollab.com/projects/dj-project/milesto=
+nes/74" onclick=3D"window.open('http://example.tryactivecollab.com/proj=
+ects/dj-project/milestones/74');return false;">Test=20
+Milestone</a></td></tr></tbody></table></td><td><table id=3D"createdBy" sty=
+le=3D"width:150px;font-family:Lucida Grande, Verdana, Arial, Helvetica, san=
+s-serif;font-size:12px;" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0"><tbody><tr><td style=3D"width:100px;margin:5px;" align=3D"r=
+ight" width=3D"100">Created by<br> <a style=3D"padding-top:5px;color:#95000=
+0;text-decoration:underline;" target=3D"_blank" href=3D"http://example.=
+tryactivecollab.com/people/1/users/1" onclick=3D"window.open('http://example
+a.tryactivecollab.com/people/1/users/1');return false;">Example=20
+M.</a></td><td style=3D"padding:5px 10px;" class=3D"avatar"><img src=3D"/pr=
+eview/shared/images/blank_image.gif"></td></tr></tbody></table></td></tr></=
+tbody></table></td></tr></tbody></table></td></tr><tr><td style=3D"text-ali=
+gn:center;font-size:11px;padding:5px 0;"><a style=3D"color:#950000;" target=
+=3D"_blank" href=3D"http://example.tryactivecollab.com/public/subscript=
+ions/unsubscribe?code=3D228-baXS4dPcs7" onclick=3D"window.open('http://exam=
+ple.tryactivecollab.com/public/subscriptions/unsubscribe?code=3D228-baX=
+S4dPcs7');return false;">Stop receiving email notifications</a> about this=
+=20
+discussion.</td></tr><tr><td style=3D"text-align:center;font-size:11px;padd=
+ing:5px 0 20px;">=C2=A92013 by Owner Company. Powered by: <a style=3D"color=
+:#950000;text-decoration:underline;" target=3D"_blank" href=3D"http://www.a=
+ctivecollab.com" onclick=3D"window.open('http://www.activecollab.com');retu=
+rn false;">activeCollab</a>.</td></tr></tbody></table></div></div></blockqu=
+ote></span>
+--=_c9e315574373ca97c8b9a4d19b6a72a5--
+

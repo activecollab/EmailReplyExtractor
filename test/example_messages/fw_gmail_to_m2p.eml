@@ -1,0 +1,66 @@
+From MAILER-DAEMON Fri Jul  8 12:08:34 2011
+Delivered-To: activecollabt+m2p-f810847@gmail.com
+Received: by 10.70.41.99 with SMTP id e3csp222672pdl;
+        Thu, 3 Jul 2014 00:59:12 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:delivered-to:from:content-type
+         :content-transfer-encoding:subject:message-id:date:to:mime-version;
+        bh=QsKrvAtmSRjrl6TV6WGvvWx5Yk6f13KjP6m8yMZIrOs=;
+        b=hqr5efnSSPAZ3WHm6/cZ8+S6fBWa/W8vejPW2GB9wDPa/Rj8k1n1kdkS5uR1NpI1Qk
+         HJ7H6weEFfVgRHg5vxPb8WiwSSRalyk/Qwloo3aaYjOEDcB34ph9GX9i+Q647rfLCOI3
+         JxS7UCFDgNG9qIUGa8fo8V4H9Ers64QgTatWw0y6cLRlKk4OaZrPI8qXCxGdCYyFlEr+
+         toMDPHso8clEb9EuBn1P6nB9gQVqH1cdZSI8E/2JPzYAc2CIZIv/8p5gSdTA/O+E+d/s
+         bxC9vB7ULCbJDb47cTbxb1lwYDqz8GJ/sOVENuoaxsKr83l7FPExnhZHVX4vnhkaWZ4x
+         eBjw==
+X-Original-Authentication-Results: mx.google.com;       spf=neutral (google.com: Example@a51dev.com does not designate permitted sender hosts) smtp.mail=Example@a51dev.com
+X-Received: from mr.google.com ([10.221.44.73])
+        by 10.221.44.73 with SMTP id uf9mr1880720vcb.9.1404374352003 (num_hops = 1);
+        Thu, 03 Jul 2014 00:59:12 -0700 (PDT)
+X-Received: by 10.221.44.73 with SMTP id uf9mr2358486vcb.9.1404374351715;
+        Thu, 03 Jul 2014 00:59:11 -0700 (PDT)
+X-Forwarded-To: activecollabt+m2p-f810847@gmail.com
+X-Forwarded-For: example@gmail.com activecollabt+m2p-f810847@gmail.com
+Delivered-To: example@gmail.com
+Received: by 10.220.225.74 with SMTP id ir10csp322712vcb;
+        Thu, 3 Jul 2014 00:59:11 -0700 (PDT)
+X-Received: by 10.42.107.68 with SMTP id c4mr8411541icp.60.1404374351004;
+        Thu, 03 Jul 2014 00:59:11 -0700 (PDT)
+Return-Path: <Example@a51dev.com>
+Received: from santino.activecollab.com (santino.activecollab.com. [69.36.35.80])
+        by mx.google.com with ESMTPS id b5si41880187icx.38.2014.07.03.00.59.10
+        for <example@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 03 Jul 2014 00:59:10 -0700 (PDT)
+Received-SPF: none (google.com: Example@a51dev.com does not designate permitted sender hosts) client-ip=69.36.35.80;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: Example@a51dev.com does not designate permitted sender hosts) smtp.mail=Example@a51dev.com
+Received: from localhost (localhost [127.0.0.1])
+	by santino.activecollab.com (Postfix) with ESMTP id 38F031C81550
+	for <example@gmail.com>; Thu,  3 Jul 2014 09:59:10 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at santino.activecollab.com
+Received: from santino.activecollab.com ([127.0.0.1])
+	by localhost (santino.activecollab.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id VV_JJDPIReiq for <example@gmail.com>;
+	Thu,  3 Jul 2014 09:59:10 +0200 (CEST)
+Received: from [192.168.1.111] (cable-89-216-122-78.static.sbb.rs [89.216.122.78])
+	(Authenticated sender: Example@a51dev.com)
+	by santino.activecollab.com (Postfix) with ESMTPSA id 001661C8154B
+	for <example@gmail.com>; Thu,  3 Jul 2014 09:59:07 +0200 (CEST)
+From: Example Example <Example@a51dev.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: testing
+Message-Id: <B33FC5DF-0D9F-44C7-9397-FEAA39F57425@a51dev.com>
+Date: Thu, 3 Jul 2014 09:59:05 +0200
+To: example@gmail.com
+Mime-Version: 1.0 (Mac OS X Mail 7.2 \(1874\))
+X-Mailer: Apple Mail (2.1874)
+X-IMAPbase: 1404374671 1
+Status: RO
+X-Status: 
+X-Keywords:                      
+X-UID: 1
+
+apple->gmail->m2p
+

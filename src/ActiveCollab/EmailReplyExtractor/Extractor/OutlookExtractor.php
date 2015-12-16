@@ -6,22 +6,37 @@
    */
   final class OutlookExtractor extends Extractor
   {
-    /**
-     * @param string $html
-     *
-     * @return string
-     */
-    static function toPlainText($html)
+    public function processLines()
     {
-      $html = str_replace('div', 'p', $html);
+      parent::processLines();
+      self::stripSignature();
+    }
 
-      return parent::toPlainText($html);
+    /**
+     * Overrides Extractor::stripSignature()
+     */
+    public function stripSignature()
+    {
+      for ($x = 0, $lines_count = count($this->body); $x < $lines_count; $x++) {
+        $line = trim($this->body[(($lines_count - $x) - 1)]);
+
+        if ($line && trim($line)) {
+          if ($line == "-- " || $line == "--" || substr($line, 0, strlen('-- ')) == '-- ') {
+            $this->body = array_splice($this->body, 0, (($lines_count - $x) - 1));
+            return;
+          }
+
+          // Should signature be longer than 8 lines?
+          if ($x > 8) {
+            return;
+          }
+        }
+      }
     }
 
     /**
      * Return original message splitters
      *
-     * @todo
      * @return array
      */
     protected function getOriginalMessageSplitters()

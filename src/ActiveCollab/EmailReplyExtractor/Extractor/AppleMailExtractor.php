@@ -33,4 +33,16 @@
       $this->stripSignature();
       $this->convertPlainTextQuotesToBlockquotes();
     }
+
+    /**
+     * Return original message splitters
+     *
+     * @return array
+     */
+    protected function getOriginalMessageSplitters()
+    {
+      return array_merge(parent::getOriginalMessageSplitters(), [
+        '/\-------------------------/is',
+      ]);
+    }
   }

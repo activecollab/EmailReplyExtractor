@@ -45,10 +45,10 @@
     }
 
     /**
-     * Test if we can detect Hotmail
+     * Test if we can detect MailRu
      */
-    public function testDetectHotmail()
+    public function testDetectMailRu()
     {
-      $this->assertEquals(EmailReplyExtractor::HOTMAIL, EmailReplyExtractor::detectMailer([ 'received' => "from BAY174-W36 ([65.54.190.187]) by bay0-omc3-s10.bay0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4675);\n    Wed, 22 Jan 2014 18:02:13 -0800" ]));
+      $this->assertEquals(EmailReplyExtractor::MAIL_RU_MAIL, EmailReplyExtractor::detectMailer([ 'message-id' => '<1448892807.548119671@f238.i.mail.ru>' ]));
     }
   }
