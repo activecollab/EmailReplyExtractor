@@ -95,8 +95,11 @@
         } else if (strpos($headers['x-mailer'], 'Apple Mail') !== false) {
           return self::APPLE_MAIL;
         }
+      } else if (isset($headers['user-agent'])) {
+        if (strpos($headers['user-agent'], 'Microsoft-MacOutlook') !== false) {
+          return self::OUTLOOK;
+        }
       } else if (isset($headers['message-id'])) {
-
         if (strpos($headers['message-id'], '@mail.gmail.com') !== false) {
           return self::GOOGLE_MAIL;
         } else if (strpos($headers['message-id'], '@smtp.hushmail.com')) {
@@ -115,6 +118,7 @@
       } else if (isset($headers['mime-version']) && strpos($headers['mime-version'], 'Apple Message framework') !== false) {
         return self::APPLE_MAIL;
       }
+
       return self::GENERIC;
     }
 
@@ -127,8 +131,9 @@
       return self::filterHeaders([
         'x-mailer' => $parser->getHeader('x-mailer'),
         'message-id' => $parser->getHeader('message-id'),
-        'Received' => $parser->getHeader('received'),
-        'Mime-Version' => $parser->getHeader('mime-version'),
+        'received' => $parser->getHeader('received'),
+        'mime-version' => $parser->getHeader('mime-version'),
+        'user-agent' => $parser->getHeader('user-agent'),
       ]);
     }
 
@@ -141,8 +146,9 @@
       return self::filterHeaders([
         'x-mailer' => $headers['x-mailer'],
         'message-id' => $headers['message_id'],
-        'Received' => $headers['Received'],
-        'Mime-Version' => $headers['Mime-Version'],
+        'received' => $headers['Received'],
+        'mime-version' => $headers['Mime-Version'],
+        'user-agent' => $headers['User-Agent'],
       ]);
     }
 
