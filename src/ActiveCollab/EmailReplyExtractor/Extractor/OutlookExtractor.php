@@ -6,12 +6,6 @@
    */
   final class OutlookExtractor extends Extractor
   {
-    public function processLines()
-    {
-      parent::processLines();
-      self::stripSignature();
-    }
-
     /**
      * Overrides Extractor::stripSignature()
      */
@@ -44,6 +38,17 @@
       return array_merge(parent::getOriginalMessageSplitters(), [
         '/\-------------------------/is',
       ]);
+    }
+
+    /**
+     * Strip default Outlook for Mac signature
+     * @param  string $html
+     * @return string
+     */
+    static function toPlainText($html)
+    {
+      $html = preg_replace('/<div id="MAC_OUTLOOK_SIGNATURE".+<\/div>/','', $html);
+      return parent::toPlainText($html);
     }
 
   }
