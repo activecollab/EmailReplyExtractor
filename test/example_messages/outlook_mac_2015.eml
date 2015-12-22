@@ -1,0 +1,165 @@
+Return-Path: <example@activecollab.com>
+Delivered-To: example@activecollab.com
+User-Agent: Microsoft-MacOutlook/0.0.0.151206
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+	s=mail; t=1450276140;
+	bh=cRaaoGwBJSXYdz2lEx1ghHt2g9Y+AbkcLDVWC1x2qhk=;
+	h=Date:Subject:From:To:References:In-Reply-To;
+	b=EIXg0edABqnJkqWzm4zceUGP6FmeePbSQeEvOgf9EPg3o9Ho8AnCwjA3c+PqIiO74
+	 PCFejvdW4xjTxpzxzSDQldgX9u/8bw498Z/6ezGn3ljpQOmmX6/IPtTFEgudPR5/YA
+	 42UkRFfM9jAuSNRKDeU7F4AleNOTvpzReZhAFxyE=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+	s=mail; t=1450276139;
+	bh=cRaaoGwBJSXYdz2lEx1ghHt2g9Y+AbkcLDVWC1x2qhk=;
+	h=Date:Subject:From:To:References:In-Reply-To;
+	b=cv+XL/bB1DHHICXA6j1JOmp6Y9VN7YdNamn+0bt/tECEnTgswTEWOT6YXKuBLrvbd
+	 lHcxI58NjCywFlSsEitqUj3352QwyPfg7txkZr+FyR/oKOKgg5et/A4Vxwu+tRiWcl
+	 Ag5qUOSuT+V29XPbdfxrqaa59kzN3h0oT44REmCs=
+Date: Wed, 16 Dec 2015 15:28:55 +0100
+Subject: Re: test task
+From: Example Example <example@activecollab.com>
+To: Owner Owneric <example@activecollab.com>
+Message-ID: <492FEC56-1873-4390-8BC3-1BBA1CE0AE00@activecollab.com>
+Thread-Topic: test task
+References: <d8f1be5abc2e8bcab9585ffab4bb5d6c@acid>
+In-Reply-To: <d8f1be5abc2e8bcab9585ffab4bb5d6c@acid>
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3533124539_1206111362"
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3533124539_1206111362
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: 7bit
+
+Pozdrav iz rudnika!
+
+
+-- 
+Example Studen
+www: https://www.activecollab.com/index.html
+tw: https://twitter.com/example
+
+
+From:  Owner Owneric <example@activecollab.com>
+Date:  Wednesday, December 16, 2015 at 3:24 PM
+To:  Example Example <example@activecollab.com>
+Subject:  Re: test task
+
+  Re: test task  
+- Reply above this line to leave a comment -
+New comment posted in:
+test task
+Owner Owneric  Dec 16. 2015 
+@ilija.Example pls, odgovori mi na ovu notifikaciju sa Outlooka za Mac pls 
+Project: test project
+Task List: ToDont
+People in this task: ilija.Example and Owner Owneric
+
+Delivered by ActiveCollab
+Don't send me emails about this task any more
+
+
+--B_3533124539_1206111362
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div><div><div>Pozdrav iz rudnika!=
+</div><div><div id=3D"MAC_OUTLOOK_SIGNATURE"><div><br></div><div><br></div><di=
+v>--&nbsp;</div><div>Example Studen</div><div>www: <a href=3D"https://www.active=
+collab.com/index.html">https://www.activecollab.com/index.html</a></div><div=
+>tw:&nbsp;<a href=3D"https://twitter.com/istdn">https://twitter.com/istdn</a><=
+/div><div><br></div></div></div></div></div><div><br></div><span id=3D"OLK_SRC=
+_BODY_SECTION"><div style=3D"font-family:Calibri; font-size:12pt; text-align:l=
+eft; color:black; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADD=
+ING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: #b5c4df =
+1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 3pt"><span style=3D"font-we=
+ight:bold">From: </span> Owner Owneric &lt;<a href=3D"mailto:example=
+@activecollab.com">example@activecollab.com</a>&gt;<br><span style=
+=3D"font-weight:bold">Date: </span> Wednesday, December 16, 2015 at 3:24 PM<br=
+><span style=3D"font-weight:bold">To: </span> Example Example &lt;<a href=3D"mailto=
+:example@activecollab.com">example@activecollab.com</a>&gt;<br><sp=
+an style=3D"font-weight:bold">Subject: </span> Re: test task<br></div><div><br=
+></div><div>
+
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+    <title>Re: test task</title>
+
+    <style type=3D"text/css">
+      body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; margin:0; padding:0; background: #f1f1f1; }
+      a { color: #005EB0; }
+      h1, h2, h3, p { margin: 1em 0; }
+      pre { overflow-x: scroll; max-width: 455px; background-color: #f1f1f1=
+; padding: 15px; }
+
+      @media only screen and (min-device-width: 601px) {
+        .content {
+          width: 600px !important;
+        }
+      }
+    </style><div><!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" cellpadding=3D"10" cellspacing=3D"0" border=3D"0" align=3D"cen=
+ter">
+    <tr>
+      <td>
+<![endif]--><!-- Outer Table --><table style=3D"width: 100%; background-color=
+: #f1f1f1;" cellpadding=3D"10" cellspacing=3D"0" border=3D"0" align=3D"center"><tbod=
+y><tr><td style=3D"font-family: Helvetica, Arial, sans-serif; font-size: 11px;=
+ color: #999999;" align=3D"center"><p style=3D"margin-top: 0;">- Reply above thi=
+s line to leave a comment -</p><table class=3D"content" style=3D"width: 100%; ma=
+x-width: 600px; background-color: #ffffff; border-width: 1px; border-color: =
+#d1d1d1; border-radius: 3px;" cellpadding=3D"20" cellspacing=3D"0" align=3D"center=
+"><tbody><tr><td style=3D"font-family: Helvetica, Arial, sans-serif; font-size=
+: 16px; line-height: 22px; padding-top: 0; color: #000000;" align=3D"left"><!-=
+- Message Body --><h1 style=3D"font-size: 16px; font-weight: bold; margin-top:=
+ 20px; margin-bottom: 16px;">
+	New comment posted in:<br>
+	<a style=3D"display: block; overflow: hidden; text-overflow: ellipsis; white=
+-space: nowrap; max-width: 550px;" href=3D"http://feather.dev/projects/13/task=
+s/383">test task</a></h1><!-- Comment table --><table border=3D"0" cellpadding=
+=3D"10" cellspacing=3D"0" bgcolor=3D"#ffffff" style=3D"width: 100%">
+			
+		<tbody><tr>
+			<td valign=3D"top" style=3D"padding-left: 0; width: 36px;">
+				<img src=3D"http://feather.dev/proxy.php?proxy=3Davatar&amp;module=3Dsystem&a=
+mp;v=3Dcurrent&amp;b=3DDEV&amp;user_id=3D1&amp;size=3D36&amp;timestamp=3D1449138096" w=
+idth=3D"36" height=3D"36" alt=3D"Owner Owneric">
+			</td>
+			<td colspan=3D"2" valign=3D"top" style=3D"padding-left: 0;">
+				<strong>Owner Owneric</strong> <span style=3D"font-size: 14px; line-heigh=
+t: 14px;">&nbsp;Dec 16. 2015</span> <br>
+				<span style=3D"word-wrap: break-word; word-break: break-word; -ms-word-br=
+eak: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;"><=
+span style=3D"background-color: #D9EEFF; padding: 0 2px; border: 1px solid #AE=
+BFCC; border-radius: 3px;">@example</span>&nbsp;pls, odgovori mi na ovu=
+ notifikaciju sa Outlooka za Mac pls</span>
+				
+			</td>
+		</tr>
+
+			
+</tbody></table><!-- Metadata --><div class=3D"metadata" style=3D"color: #99999=
+9; font-size: 14px; line-height: 21px;"><p>Project: test project<br>Task Lis=
+t: ToDont<br>People in this task: <a href=3D"mailto:example@activecollab.=
+com" style=3D"color: #999999; text-decoration: none;">example</a> and <a =
+href=3D"mailto:example@activecollab.com" style=3D"color: #999999; text=
+-decoration: none;">Owner Owneric</a></p></div></td></tr></tbody></table><p>=
+Delivered by ActiveCollab<br><a href=3D"http://feather.dev/public/notification=
+s/unsubscribe?code=3DSUBS-464-uR98FWaV1d" style=3D"color: #999999;">Don't send m=
+e emails about this task any more</a></p><!-- End Outer Table --></td></tr><=
+/tbody></table><!--[if (gte mso 9)|(IE)]>
+  </td>
+</tr>
+</table>
+<![endif]--></div></div></span></body></html>
+
+--B_3533124539_1206111362--
+
+

@@ -70,6 +70,8 @@
           return 'Šćućurih se u čaši povrh džačića.';
         case 'outlook_2013.eml':
           return 'Test from my Outlook.';
+        case 'outlook_mac_2015.eml':
+          return 'Pozdrav iz rudnika!';
         case 'unknown_case_01.eml':
           return 'Thanks Michael.  We will discuss and get back to you.';
         default:
