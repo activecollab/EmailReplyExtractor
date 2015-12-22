@@ -1,0 +1,278 @@
+Return-Path: <example@activecollab.com>
+Delivered-To: imaptest@activecollab.com
+User-Agent: Microsoft-MacOutlook/0.0.0.151206
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+	s=mail; t=1450790504;
+	bh=APly66fv9ObBRTQOMldOqkxeVXxRLXxTNnSoP4ThAGk=;
+	h=Date:Subject:From:To:References:In-Reply-To;
+	b=VbqLk3csLK1Z02ccq7t8UIxX3ZUsP8CEYAH0s/KYbFTJuiNlfyQXxwgdjUz79Cf8h
+	 wU1bRLGluV8WPzZXQ/ymV5AuTbZna7gniXyF3HAUxi8gNu8UVIl3mEyyrJQWWlJ0UA
+	 51LGY7UyjhPRHi8w6EBbjR0W8S9xRvFhXJjHtU9g=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+	s=mail; t=1450790504;
+	bh=APly66fv9ObBRTQOMldOqkxeVXxRLXxTNnSoP4ThAGk=;
+	h=Date:Subject:From:To:References:In-Reply-To;
+	b=VbqLk3csLK1Z02ccq7t8UIxX3ZUsP8CEYAH0s/KYbFTJuiNlfyQXxwgdjUz79Cf8h
+	 wU1bRLGluV8WPzZXQ/ymV5AuTbZna7gniXyF3HAUxi8gNu8UVIl3mEyyrJQWWlJ0UA
+	 51LGY7UyjhPRHi8w6EBbjR0W8S9xRvFhXJjHtU9g=
+Date: Tue, 22 Dec 2015 14:21:35 +0100
+Subject: Re: test iz lokala
+From: Example <example@activecollab.com>
+To: <imaptest@activecollab.com>
+Message-ID: <26DFE4BE-BF9E-4092-82FE-F435529D0BDD@activecollab.com>
+Thread-Topic: test iz lokala
+References: <bd2591680e062f6c9b564fc6128a77eb@activecollab>
+In-Reply-To: <bd2591680e062f6c9b564fc6128a77eb@activecollab>
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3533638902_1434197025"
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3533638902_1434197025
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: 7bit
+
+Neki novi red.
+I paragraf?
+
+Evo ga jedan.
+
+Evo ga drugo.
+
+
+--
+Example
+www: https://www.activecollab.com/index.html
+tw: https://twitter.com/example
+
+
+From:  "owner (Active Collab)" <imaptest@activecollab.com>
+Reply-To:  <imaptest@activecollab.com>
+Date:  Tuesday, December 22, 2015 at 2:18 PM
+To:  Example <example@activecollab.com>
+Subject:  Re: test iz lokala
+
+  Re: test iz lokala
+- Reply above this line to leave a comment -
+New comment posted in:
+test iz lokala
+owner  Dec 22. 2015
+@example kul, jos samo neki novi red i paragraf pls
+
+ Older comments
+example  Dec 22. 2015
+Odgovor.
+example  Dec 22. 2015
+Odgovor.
+example  Dec 22. 2015
+Odgovor.
+example  Dec 22. 2015
+Odgovor.
+
+View all comments (6)
+Project: project 2
+Task List: Inbox
+People in this task: owner and example
+
+Delivered by ActiveCollab
+Don't send me emails about this task any more
+
+
+--B_3533638902_1434197025
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: s=
+pace; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size:=
+ 14px; font-family: Calibri, sans-serif;"><div><div><div>Neki novi red.</div=
+><div>I paragraf?</div><div><br></div><div>Evo ga jedan.</div><div><br></div=
+><div>Evo ga drugo.</div><div><div id=3D"MAC_OUTLOOK_SIGNATURE"><div><br></div=
+><div><br></div><div>--&nbsp;</div><div>Example</div><div>www: <a href=3D=
+"https://www.example.com/index.html">https://www.example.com/index=
+.html</a></div><div>tw:&nbsp;<a href=3D"https://twitter.com/example">https://twi=
+tter.com/example</a></div><div><br></div></div></div></div></div><div><br></di=
+v><span id=3D"OLK_SRC_BODY_SECTION"><div style=3D"font-family:Calibri; font-size=
+:12pt; text-align:left; color:black; BORDER-BOTTOM: medium none; BORDER-LEFT=
+: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; B=
+ORDER-TOP: #b5c4df 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 3pt"><=
+span style=3D"font-weight:bold">From: </span> "owner (Active Collab)" &lt;<a h=
+ref=3D"mailto:imaptest@activecollab.com">imaptest@activecollab.com</a>&gt;<br>=
+<span style=3D"font-weight:bold">Reply-To: </span> &lt;<a href=3D"mailto:imaptes=
+t@activecollab.com">imaptest@activecollab.com</a>&gt;<br><span style=3D"font-w=
+eight:bold">Date: </span> Tuesday, December 22, 2015 at 2:18 PM<br><span sty=
+le=3D"font-weight:bold">To: </span> Example &lt;<a href=3D"mailto:example=
+@activecollab.com">example@activecollab.com</a>&gt;<br><span style=3D"=
+font-weight:bold">Subject: </span> Re: test iz lokala<br></div><div><br></di=
+v><div>
+
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+    <title>Re: test iz lokala</title>
+
+    <style type=3D"text/css">
+      body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; margin:0; padding:0; background: #f1f1f1; }
+      a { color: #005EB0; }
+      h1, h2, h3, p { margin: 1em 0; }
+      pre { overflow-x: scroll; max-width: 455px; background-color: #f1f1f1=
+; padding: 15px; }
+
+      @media only screen and (min-device-width: 601px) {
+        .content {
+          width: 600px !important;
+        }
+      }
+    </style><div><!--[if (gte mso 9)|(IE)]>
+  <table width=3D"600" cellpadding=3D"10" cellspacing=3D"0" border=3D"0" align=3D"cen=
+ter">
+    <tr>
+      <td>
+<![endif]--><!-- Outer Table --><table style=3D"width: 100%; background-color=
+: #f1f1f1;" cellpadding=3D"10" cellspacing=3D"0" border=3D"0" align=3D"center"><tbod=
+y><tr><td style=3D"font-family: Helvetica, Arial, sans-serif; font-size: 11px;=
+ color: #999999;" align=3D"center"><p style=3D"margin-top: 0;">- Reply above thi=
+s line to leave a comment -</p><table class=3D"content" style=3D"width: 100%; ma=
+x-width: 600px; background-color: #ffffff; border-width: 1px; border-color: =
+#d1d1d1; border-radius: 3px;" cellpadding=3D"20" cellspacing=3D"0" align=3D"center=
+"><tbody><tr><td style=3D"font-family: Helvetica, Arial, sans-serif; font-size=
+: 16px; line-height: 22px; padding-top: 0; color: #000000;" align=3D"left"><!-=
+- Message Body --><h1 style=3D"font-size: 16px; font-weight: bold; margin-top:=
+ 20px; margin-bottom: 16px;">
+	New comment posted in:<br>
+	<a style=3D"display: block; overflow: hidden; text-overflow: ellipsis; white=
+-space: nowrap; max-width: 550px;" href=3D"http://feather.dev/projects/4/tasks=
+/9">test iz lokala</a></h1><!-- Comment table --><table border=3D"0" cellpaddi=
+ng=3D"10" cellspacing=3D"0" bgcolor=3D"#ffffff" style=3D"width: 100%">
+
+		<tbody><tr>
+			<td valign=3D"top" style=3D"padding-left: 0; width: 36px;">
+				<img src=3D"http://feather.dev/proxy.php?proxy=3Davatar&amp;module=3Dsystem&a=
+mp;v=3Dcurrent&amp;b=3DDEV&amp;user_id=3D1&amp;size=3D36&amp;timestamp=3D1450702117" w=
+idth=3D"36" height=3D"36" alt=3D"owner">
+			</td>
+			<td colspan=3D"2" valign=3D"top" style=3D"padding-left: 0;">
+				<strong>owner</strong> <span style=3D"font-size: 14px; line-height: 14px;=
+">&nbsp;Dec 22. 2015</span> <br>
+				<span style=3D"word-wrap: break-word; word-break: break-word; -ms-word-br=
+eak: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;"><=
+span style=3D"background-color: #D9EEFF; padding: 0 2px; border: 1px solid #AE=
+BFCC; border-radius: 3px;">@example</span>&nbsp;kul, jos samo neki novi=
+ red i paragraf pls</span>
+
+			</td>
+		</tr>
+
+					<tr><!-- Divider -->
+				<td colspan=3D"2" height=3D"1" bgcolor=3D"#cccccc" style=3D"height: 1px; font-s=
+ize: 0; line-height: 0; padding: 0;">&nbsp;</td>
+			</tr>
+
+			<tr>
+				<td valign=3D"top" style=3D"padding-bottom: 0;">
+					&nbsp;
+				</td>
+				<td valign=3D"top" style=3D"padding-left: 0; padding-bottom: 0; padding-top=
+: 14px; font-size: 14px; line-height: 14px; font-weight: bold;">
+					Older comments
+				</td>
+			</tr>
+
+		<tr>
+			<td valign=3D"top" style=3D"padding-left: 0; width: 36px;">
+				<img src=3D"http://feather.dev/proxy.php?proxy=3Davatar&amp;module=3Dsystem&a=
+mp;v=3Dcurrent&amp;b=3DDEV&amp;user_id=3D9&amp;size=3D36&amp;timestamp=3D1450787444" w=
+idth=3D"36" height=3D"36" alt=3D"example">
+			</td>
+			<td colspan=3D"2" valign=3D"top" style=3D"padding-left: 0; color:#999999;">
+				<strong>example</strong> <span style=3D"font-size: 14px; line-height=
+: 14px;">&nbsp;Dec 22. 2015</span> <br>
+				<span style=3D"word-wrap: break-word; word-break: break-word; -ms-word-br=
+eak: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">O=
+dgovor.</span>
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td valign=3D"top" style=3D"padding-left: 0; width: 36px;">
+				<img src=3D"http://feather.dev/proxy.php?proxy=3Davatar&amp;module=3Dsystem&a=
+mp;v=3Dcurrent&amp;b=3DDEV&amp;user_id=3D9&amp;size=3D36&amp;timestamp=3D1450787444" w=
+idth=3D"36" height=3D"36" alt=3D"example">
+			</td>
+			<td colspan=3D"2" valign=3D"top" style=3D"padding-left: 0; color:#999999;">
+				<strong>example</strong> <span style=3D"font-size: 14px; line-height=
+: 14px;">&nbsp;Dec 22. 2015</span> <br>
+				<span style=3D"word-wrap: break-word; word-break: break-word; -ms-word-br=
+eak: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">O=
+dgovor.</span>
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td valign=3D"top" style=3D"padding-left: 0; width: 36px;">
+				<img src=3D"http://feather.dev/proxy.php?proxy=3Davatar&amp;module=3Dsystem&a=
+mp;v=3Dcurrent&amp;b=3DDEV&amp;user_id=3D9&amp;size=3D36&amp;timestamp=3D1450787444" w=
+idth=3D"36" height=3D"36" alt=3D"example">
+			</td>
+			<td colspan=3D"2" valign=3D"top" style=3D"padding-left: 0; color:#999999;">
+				<strong>example</strong> <span style=3D"font-size: 14px; line-height=
+: 14px;">&nbsp;Dec 22. 2015</span> <br>
+				<span style=3D"word-wrap: break-word; word-break: break-word; -ms-word-br=
+eak: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">O=
+dgovor.</span>
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td valign=3D"top" style=3D"padding-left: 0; width: 36px;">
+				<img src=3D"http://feather.dev/proxy.php?proxy=3Davatar&amp;module=3Dsystem&a=
+mp;v=3Dcurrent&amp;b=3DDEV&amp;user_id=3D9&amp;size=3D36&amp;timestamp=3D1450787444" w=
+idth=3D"36" height=3D"36" alt=3D"example">
+			</td>
+			<td colspan=3D"2" valign=3D"top" style=3D"padding-left: 0; color:#999999;">
+				<strong>example</strong> <span style=3D"font-size: 14px; line-height=
+: 14px;">&nbsp;Dec 22. 2015</span> <br>
+				<span style=3D"word-wrap: break-word; word-break: break-word; -ms-word-br=
+eak: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;">O=
+dgovor.</span>
+
+			</td>
+		</tr>
+
+
+	<tr><!-- Divider -->
+		<td colspan=3D"2" height=3D"1" bgcolor=3D"#cccccc" style=3D"height: 1px; font-siz=
+e: 0; line-height: 0; padding: 0;">&nbsp;</td>
+	</tr>
+
+		<tr>
+		<td colspan=3D"2" style=3D"padding-left: 0; padding-bottom: 16px; padding-top=
+: 14px; color:#777777;" align=3D"center">
+			<a href=3D"http://feather.dev/projects/4/tasks/9" style=3D"font-size: 14px; =
+line-height: 14px;">View all comments (6)</a>
+		</td>
+	</tr>
+	</tbody></table><!-- Metadata --><div class=3D"metadata" style=3D"color: #9999=
+99; font-size: 14px; line-height: 21px;"><p>Project: project 2<br>Task List:=
+ Inbox<br>People in this task: <a href=3D"mailto:owner@activecollab.com" style=
+=3D"color: #999999; text-decoration: none;">owner</a> and <a href=3D"mailto:exam
+ple@activecollab.com" style=3D"color: #999999; text-decoration: none;">ex=
+ample</a></p></div></td></tr></tbody></table><p>Delivered by ActiveColl=
+ab<br><a href=3D"http://feather.dev/public/notifications/unsubscribe?code=3DSUBS=
+-16-L7AM8tZD0o" style=3D"color: #999999;">Don't send me emails about this task=
+ any more</a></p><!-- End Outer Table --></td></tr></tbody></table><!--[if (=
+gte mso 9)|(IE)]>
+  </td>
+</tr>
+</table>
+<![endif]--></div></div></span></body></html>
+
+--B_3533638902_1434197025--

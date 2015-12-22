@@ -67,7 +67,7 @@
     public function joinLines()
     {
       // ltrim() strips BOM characters
-      $this->body = ltrim(trim(implode("\n", $this->body), "\xEF\xBB\xBF"));
+      $this->body = ltrim(trim(implode("\n", $this->body)), "\xEF\xBB\xBF");
     }
 
     /**
@@ -349,6 +349,9 @@
       // <p> converts to 2 newlines
       $plain = (string) preg_replace('/<p[^>]*>/i', "\n\n", $plain); // <p>
 
+      // new line after div
+      $plain = (string) preg_replace('/<div[^>]*>/i', "\n", $plain); // <div>
+
       // uppercase html elements
       $plain = (string) preg_replace_callback('/<h[123456][^>]*>(.*?)<\/h[123456]>/i', function($matches) {
         return "\n\n" . mb_strtoupper($matches[1]) . "\n\n";
@@ -366,9 +369,6 @@
 
       // elements that convert to single newline
       $plain = (string) preg_replace(array('/<br[^>]*>/i', '/(<tr[^>]*>|<\/tr>)/i'), "\n", $plain); // <br> <tr>
-
-      // div elements
-      $plain = (string) preg_replace('/<div[^>]*>(.*?)<\/div>/i', "\\1\n", $plain); // <div>with content</div>
 
       // images
       $plain = (string) preg_replace(array('/<img\s+[^>]*src="([^"]*)"[^>]*>/i'), "[Image: \\1]", $plain); // <br> <tr>
