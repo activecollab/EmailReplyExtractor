@@ -40,7 +40,6 @@
 
         if ($file->isFile() && $file->getExtension() == 'eml') {
           $expected_text = $this->setExpectedTextByFileName($file->getFilename());
-
           $this->assertEquals($expected_text, EmailReplyExtractor::extractReplyEml($file->getPathname()));
           // assert that text of the stripped emails match the original text even with <br /> instead of new row char
           $this->assertEquals(nl2br($expected_text), nl2br(EmailReplyExtractor::extractReplyEml($file->getPathname())));
@@ -57,6 +56,10 @@
     private function setExpectedTextByFileName($filename)
     {
       switch ($filename) {
+          case 'apple_icloud_via_mailapp_1.eml':
+              return 'Evo ga.';
+          case 'apple_icloud_via_mailapp_2.eml':
+              return 'Za defaultni mozda ako ima smisla?';
         case 'apple_mail_case_01.eml':
           return 'Just an attachment';
         case 'apple_mail_new_row.eml';
