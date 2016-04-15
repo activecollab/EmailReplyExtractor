@@ -68,7 +68,7 @@
      * @param  string    $body
      * @return Extractor
      */
-    private function getExtractor($mailer, $body)
+    private static function getExtractor($mailer, $body)
     {
       $class_name = "ActiveCollab\\EmailReplyExtractor\\Extractor\\{$mailer}Extractor";
 
