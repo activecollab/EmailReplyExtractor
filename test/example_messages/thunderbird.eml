@@ -1,35 +1,35 @@
-Return-Path: <marko.dobric@activecollab.com>
-Delivered-To: marko.dobric@activecollab.com
+Return-Path: <example@example.com>
+Delivered-To: example@example.com
 Received: from localhost (localhost [127.0.0.1])
-	by activecollab.com (Postfix) with ESMTP id 4A9C41A15C;
+	by example.com (Postfix) with ESMTP id 4A9C41A15C;
 	Wed, 30 Mar 2016 07:09:15 -0400 (EDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=example.com;
 	s=mail; t=1459336155;
 	bh=oVSS+PB+Vm5zVYpjzg/pdMUsarJNMK/e37MNvd/prlM=;
 	h=Subject:To:References:From:Date:In-Reply-To;
 	b=2Bim2I77Ncommy0U0BDVGFWzJ3vrJlzcIp9R3T2OPBXe1NaRTpZ2mQsPESKhVn1BF
 	 iGEoXM3T2LCwxGU36NuCPDTb4yY6+aFR2hgPvEsPcyrXil+ezn5AZEsLkesBMpIlOb
 	 +Yz8tvmLP4fpUOJlOp+bY76H/ImDUf0G2XGy8o/Q=
-Received: from activecollab.com ([127.0.0.1])
-	by localhost (mail.activecollab.com [127.0.0.1]) (amavisd-new, port 10024)
+Received: from example.com ([127.0.0.1])
+	by localhost (mail.example.com [127.0.0.1]) (amavisd-new, port 10024)
 	with ESMTP id aBOMLhup26Px; Wed, 30 Mar 2016 07:09:15 -0400 (EDT)
 Subject: Re: task pr 1
-DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=example.com;
 	s=mail; t=1459336155;
 	bh=oVSS+PB+Vm5zVYpjzg/pdMUsarJNMK/e37MNvd/prlM=;
 	h=Subject:To:References:From:Date:In-Reply-To;
 	b=2Bim2I77Ncommy0U0BDVGFWzJ3vrJlzcIp9R3T2OPBXe1NaRTpZ2mQsPESKhVn1BF
 	 iGEoXM3T2LCwxGU36NuCPDTb4yY6+aFR2hgPvEsPcyrXil+ezn5AZEsLkesBMpIlOb
 	 +Yz8tvmLP4fpUOJlOp+bY76H/ImDUf0G2XGy8o/Q=
-To: imaptest@activecollab.com
-References: <6472f4e2ae1a5653885b3740205df95a@activecollab>
-From: Marko Dobric <marko.dobric@activecollab.com>
-Message-ID: <56FBB3D9.50905@activecollab.com>
+To: imaptest@example.com
+References: <6472f4e2ae1a5653885b3740205df95a@example>
+From: Name Lastname <example@example.com>
+Message-ID: <56FBB3D9.50905@example.com>
 Date: Wed, 30 Mar 2016 13:09:13 +0200
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:38.0)
  Gecko/20100101 Thunderbird/38.7.1
 MIME-Version: 1.0
-In-Reply-To: <6472f4e2ae1a5653885b3740205df95a@activecollab>
+In-Reply-To: <6472f4e2ae1a5653885b3740205df95a@example>
 Content-Type: multipart/alternative;
  boundary="------------080709070006050705020007"
 
@@ -59,10 +59,10 @@ On 3/30/16 12:01 PM, owner (Active Collab) wrote:
 >
 > Project: project 1
 > Task List: Inbox
-> People in this task: owner <mailto:owner@activecollab.com> and Marko 
-> Dobric <mailto:marko.dobric@activecollab.com>
+> People in this task: owner <mailto:owner@example.com> and Name
+> Last Name <mailto:example@example.com>
 >
-> Delivered by ActiveCollab
+> Delivered by example
 > Don't send me emails about this task any more 
 > <http://feather.dev/public/notifications/unsubscribe?code=SUBS-14-f3SsCxeDaJ>
 >
@@ -82,7 +82,7 @@ Content-Transfer-Encoding: 8bit
     <div class="moz-cite-prefix">On 3/30/16 12:01 PM, owner (Active
       Collab) wrote:<br>
     </div>
-    <blockquote cite="mid:6472f4e2ae1a5653885b3740205df95a@activecollab"
+    <blockquote cite="mid:6472f4e2ae1a5653885b3740205df95a@example"
       type="cite">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <title>Re: task pr 1</title>
@@ -208,19 +208,19 @@ src="http://feather.dev/proxy.php?proxy=avatar&amp;module=system&amp;v=current&a
                           Task List: Inbox<br>
                           People in this task: <a
                             moz-do-not-send="true"
-                            href="mailto:owner@activecollab.com"
+                            href="mailto:owner@example.com"
                             style="color: #999999; text-decoration:
                             none;">owner</a> and <a
                             moz-do-not-send="true"
-                            href="mailto:marko.dobric@activecollab.com"
+                            href="mailto:example@example.com"
                             style="color: #999999; text-decoration:
-                            none;">Marko Dobric</a></p>
+                            none;">Name Lastname</a></p>
                       </div>
                     </td>
                   </tr>
                 </tbody>
               </table>
-              <p>Delivered by ActiveCollab<br>
+              <p>Delivered by example<br>
                 <a moz-do-not-send="true"
 href="http://feather.dev/public/notifications/unsubscribe?code=SUBS-14-f3SsCxeDaJ"
                   style="color: #999999;">Don't send me emails about
