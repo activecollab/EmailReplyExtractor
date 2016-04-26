@@ -87,6 +87,8 @@
           return 'Thanks Michael.  We will discuss and get back to you.';
         case 'yahoo_case_02.eml':
           return 'Reply koji uzrokuje da se u komentar uvoze i podaci o mail-u (task otvoren: https://afiveone.activecollab.net/projects/activecollab/tasks/2592)';
+        case 'thunderbird.eml':
+          return 'Email reply.';
         default:
           return 'Email Reply';
       }
