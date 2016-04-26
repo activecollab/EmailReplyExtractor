@@ -19,6 +19,7 @@
     const YAHOO = 'Yahoo';
     const APPLE_CLOUD_MAIL = 'AppleCloudMail';
     const MAIL_RU_MAIL = 'MailRuMail';
+    const THUNDERBIRD_MAIL = 'ThunderBirdMail';
 
     /**
      * Parse input file and return reply
@@ -98,6 +99,8 @@
       } else if (isset($headers['user-agent'])) {
         if (strpos($headers['user-agent'], 'Microsoft-MacOutlook') !== false) {
           return self::OUTLOOK;
+        } elseif(strpos($headers['user-agent'], 'Thunderbird') !== false) {
+          return self::THUNDERBIRD_MAIL;
         }
       } else if (isset($headers['message-id'])) {
         if (strpos($headers['message-id'], '@mail.gmail.com') !== false) {

@@ -1,0 +1,243 @@
+Return-Path: <marko.dobric@activecollab.com>
+Delivered-To: marko.dobric@activecollab.com
+Received: from localhost (localhost [127.0.0.1])
+	by activecollab.com (Postfix) with ESMTP id 4A9C41A15C;
+	Wed, 30 Mar 2016 07:09:15 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+	s=mail; t=1459336155;
+	bh=oVSS+PB+Vm5zVYpjzg/pdMUsarJNMK/e37MNvd/prlM=;
+	h=Subject:To:References:From:Date:In-Reply-To;
+	b=2Bim2I77Ncommy0U0BDVGFWzJ3vrJlzcIp9R3T2OPBXe1NaRTpZ2mQsPESKhVn1BF
+	 iGEoXM3T2LCwxGU36NuCPDTb4yY6+aFR2hgPvEsPcyrXil+ezn5AZEsLkesBMpIlOb
+	 +Yz8tvmLP4fpUOJlOp+bY76H/ImDUf0G2XGy8o/Q=
+Received: from activecollab.com ([127.0.0.1])
+	by localhost (mail.activecollab.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id aBOMLhup26Px; Wed, 30 Mar 2016 07:09:15 -0400 (EDT)
+Subject: Re: task pr 1
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=activecollab.com;
+	s=mail; t=1459336155;
+	bh=oVSS+PB+Vm5zVYpjzg/pdMUsarJNMK/e37MNvd/prlM=;
+	h=Subject:To:References:From:Date:In-Reply-To;
+	b=2Bim2I77Ncommy0U0BDVGFWzJ3vrJlzcIp9R3T2OPBXe1NaRTpZ2mQsPESKhVn1BF
+	 iGEoXM3T2LCwxGU36NuCPDTb4yY6+aFR2hgPvEsPcyrXil+ezn5AZEsLkesBMpIlOb
+	 +Yz8tvmLP4fpUOJlOp+bY76H/ImDUf0G2XGy8o/Q=
+To: imaptest@activecollab.com
+References: <6472f4e2ae1a5653885b3740205df95a@activecollab>
+From: Marko Dobric <marko.dobric@activecollab.com>
+Message-ID: <56FBB3D9.50905@activecollab.com>
+Date: Wed, 30 Mar 2016 13:09:13 +0200
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:38.0)
+ Gecko/20100101 Thunderbird/38.7.1
+MIME-Version: 1.0
+In-Reply-To: <6472f4e2ae1a5653885b3740205df95a@activecollab>
+Content-Type: multipart/alternative;
+ boundary="------------080709070006050705020007"
+
+This is a multi-part message in MIME format.
+--------------080709070006050705020007
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Email reply.
+
+On 3/30/16 12:01 PM, owner (Active Collab) wrote:
+> Re: task pr 1
+>
+> - Reply above this line to leave a comment -
+>
+>
+>   New comment posted in:
+>   task pr 1 <http://feather.dev/projects/3/tasks/4>
+>
+> owner 	*owner*  Mar 30. 2016
+> tyiop
+> 	Older comments
+> owner 	*owner*  Mar 30. 2016
+> Drugi test komentar
+> owner 	*owner*  Mar 30. 2016
+> Test commentar.
+>
+> Project: project 1
+> Task List: Inbox
+> People in this task: owner <mailto:owner@activecollab.com> and Marko 
+> Dobric <mailto:marko.dobric@activecollab.com>
+>
+> Delivered by ActiveCollab
+> Don't send me emails about this task any more 
+> <http://feather.dev/public/notifications/unsubscribe?code=SUBS-14-f3SsCxeDaJ>
+>
+
+
+--------------080709070006050705020007
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Email reply.<br>
+    <br>
+    <div class="moz-cite-prefix">On 3/30/16 12:01 PM, owner (Active
+      Collab) wrote:<br>
+    </div>
+    <blockquote cite="mid:6472f4e2ae1a5653885b3740205df95a@activecollab"
+      type="cite">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Re: task pr 1</title>
+      <style type="text/css">
+      body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; background: #f1f1f1; }
+      a { color: #005EB0; }
+      h1, h2, h3, p { margin: 1em 0; }
+      pre { overflow-x: scroll; max-width: 455px; background-color: #f1f1f1; padding: 15px; }
+
+      @media only screen and (min-device-width: 601px) {
+        .content {
+          width: 600px !important;
+        }
+      }
+    </style>
+      <!--[if (gte mso 9)|(IE)]>
+  <table width="600" cellpadding="10" cellspacing="0" border="0" align="center">
+    <tr>
+      <td>
+<![endif]-->
+      <!-- Outer Table -->
+      <table style="width: 100%; background-color: #f1f1f1;"
+        align="center" border="0" cellpadding="10" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="font-family: Helvetica, Arial, sans-serif;
+              font-size: 11px; color: #999999;" align="center">
+              <p style="margin-top: 0;">- Reply above this line to leave
+                a comment -</p>
+              <table class="content" style="width: 100%; max-width:
+                600px; background-color: #ffffff; border-width: 1px;
+                border-color: #d1d1d1; border-radius: 3px;"
+                align="center" cellpadding="20" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td style="font-family: Helvetica, Arial,
+                      sans-serif; font-size: 16px; line-height: 22px;
+                      padding-top: 0; color: #000000;" align="left"><!-- Message Body -->
+                      <h1 style="font-size: 16px; font-weight: bold;
+                        margin-top: 20px; margin-bottom: 16px;"> New
+                        comment posted in:<br>
+                        <a moz-do-not-send="true" style="display: block;
+                          overflow: hidden; text-overflow: ellipsis;
+                          white-space: nowrap; max-width: 550px;"
+                          href="http://feather.dev/projects/3/tasks/4">task
+                          pr 1</a>
+                      </h1>
+                      <!-- Comment table -->
+                      <table style="width: 100%" bgcolor="#ffffff"
+                        border="0" cellpadding="10" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td style="padding-left: 0; width: 36px;"
+                              valign="top"> <img moz-do-not-send="true"
+src="http://feather.dev/proxy.php?proxy=avatar&amp;module=system&amp;v=current&amp;b=DEV&amp;user_id=1&amp;size=36&amp;timestamp=1459321686"
+                                alt="owner" height="36" width="36"> </td>
+                            <td colspan="2" style="padding-left: 0;"
+                              valign="top"> <strong>owner</strong> <span
+                                style="font-size: 14px; line-height:
+                                14px;"> Mar 30. 2016</span> <br>
+                              <span style="word-wrap: break-word;
+                                word-break: break-word; -ms-word-break:
+                                break-all; -webkit-hyphens: auto;
+                                -moz-hyphens: auto; hyphens: auto;">tyiop</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <!-- Divider --> <td colspan="2"
+                              style="height: 1px; font-size: 0;
+                              line-height: 0; padding: 0;" height="1"
+                              bgcolor="#cccccc"> </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-bottom: 0;" valign="top">
+                                </td>
+                            <td style="padding-left: 0; padding-bottom:
+                              0; padding-top: 14px; font-size: 14px;
+                              line-height: 14px; font-weight: bold;"
+                              valign="top"> Older comments </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-left: 0; width: 36px;"
+                              valign="top"> <img moz-do-not-send="true"
+src="http://feather.dev/proxy.php?proxy=avatar&amp;module=system&amp;v=current&amp;b=DEV&amp;user_id=1&amp;size=36&amp;timestamp=1459321686"
+                                alt="owner" height="36" width="36"> </td>
+                            <td colspan="2" style="padding-left: 0;
+                              color:#999999;" valign="top"> <strong>owner</strong>
+                              <span style="font-size: 14px; line-height:
+                                14px;"> Mar 30. 2016</span> <br>
+                              <span style="word-wrap: break-word;
+                                word-break: break-word; -ms-word-break:
+                                break-all; -webkit-hyphens: auto;
+                                -moz-hyphens: auto; hyphens: auto;">Drugi
+                                test komentar</span> </td>
+                          </tr>
+                          <tr>
+                            <td style="padding-left: 0; width: 36px;"
+                              valign="top"> <img moz-do-not-send="true"
+src="http://feather.dev/proxy.php?proxy=avatar&amp;module=system&amp;v=current&amp;b=DEV&amp;user_id=1&amp;size=36&amp;timestamp=1459321686"
+                                alt="owner" height="36" width="36"> </td>
+                            <td colspan="2" style="padding-left: 0;
+                              color:#999999;" valign="top"> <strong>owner</strong>
+                              <span style="font-size: 14px; line-height:
+                                14px;"> Mar 30. 2016</span> <br>
+                              <span style="word-wrap: break-word;
+                                word-break: break-word; -ms-word-break:
+                                break-all; -webkit-hyphens: auto;
+                                -moz-hyphens: auto; hyphens: auto;">Test
+                                commentar.</span> </td>
+                          </tr>
+                          <tr>
+                            <!-- Divider --> <td colspan="2"
+                              style="height: 1px; font-size: 0;
+                              line-height: 0; padding: 0;" height="1"
+                              bgcolor="#cccccc"> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!-- Metadata -->
+                      <div class="metadata" style="color: #999999;
+                        font-size: 14px; line-height: 21px;">
+                        <p>Project: project 1<br>
+                          Task List: Inbox<br>
+                          People in this task: <a
+                            moz-do-not-send="true"
+                            href="mailto:owner@activecollab.com"
+                            style="color: #999999; text-decoration:
+                            none;">owner</a> and <a
+                            moz-do-not-send="true"
+                            href="mailto:marko.dobric@activecollab.com"
+                            style="color: #999999; text-decoration:
+                            none;">Marko Dobric</a></p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>Delivered by ActiveCollab<br>
+                <a moz-do-not-send="true"
+href="http://feather.dev/public/notifications/unsubscribe?code=SUBS-14-f3SsCxeDaJ"
+                  style="color: #999999;">Don't send me emails about
+                  this task any more</a></p>
+              <!-- End Outer Table -->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+  </td>
+</tr>
+</table>
+<![endif]-->
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------080709070006050705020007--
