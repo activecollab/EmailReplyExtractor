@@ -46,7 +46,6 @@
      */
     public static function extractReply($headers, $body)
     {
-
       $mailer    = self::detectMailer(self::getHeadersRelevantForMailerDetection($headers));
       $extractor = self::getExtractor($mailer, $body);
 
