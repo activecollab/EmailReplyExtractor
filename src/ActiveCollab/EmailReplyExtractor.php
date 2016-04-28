@@ -117,6 +117,8 @@
           return self::ANDROID_MAIL;
         } else if (strpos($headers['message-id'], 'i.mail.ru') !== false) {
           return self::MAIL_RU_MAIL;
+        } else if (strpos($headers['message-id'], 'B') !== false && strpos($headers['message-id'], 'D.') !== false) {
+          return self::THUNDERBIRD_MAIL;
         }
       } else if (isset($headers['mime-version']) && strpos($headers['mime-version'], 'Apple Message framework') !== false) {
         return self::APPLE_MAIL;
