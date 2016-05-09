@@ -45,7 +45,7 @@
      */
     protected function processLines()
     {
-      $splitters = $this->getOriginalMessageSplitters();
+      $splitters = $this->getAllMessageSplitters();
 
       if (!empty($splitters)) {
         $this->stripOriginalMessage($splitters);
@@ -70,29 +70,55 @@
       $this->body = ltrim(trim(implode("\n", $this->body)), "\xEF\xBB\xBF");
     }
 
-    /**
-     * Return original message splitters
-     *
-     * @return array
-     */
-    protected function getOriginalMessageSplitters()
+      /**
+       * Return both plain and Regex message splitters in the regex form
+       *
+       * @return array
+       */
+    protected function getAllMessageSplitters()
     {
-      return [
-        //'On Thursday, October 15, 2015 12:50 PM, owner (Active Collab)  wrote:',
-        '/On(.*?)wrote\:(.*?)/is',
-        '/^Am(.*?)schrieb(.*?)/is',
-//        '----- Forwarded Message -----',
-        '- Reply above this line to leave a comment -',
-        '-- REPLY ABOVE THIS LINE --',
-        '-- REPLY ABOVE THIS LINE',
-        'REPLY ABOVE THIS LINE --',
-        '-- Reply above this line --',
-        '-----Original Message-----',
-        '----- Original Message -----',
-        '-- ODGOVORI ODJE --',
-        '-------- Original message --------',
-      ];
+        $plain_message_splitters = $this->getPlainMessageSplitters();
+        return array_merge(
+            array_map(function ($splitter) {
+                return '/' . $splitter . '/';
+            }, $plain_message_splitters),
+            $this->getRegexMessageSplitters()
+        );
     }
+
+      /**
+       * Return original message splitters
+       *
+       * @return array
+       */
+      protected function getPlainMessageSplitters()
+      {
+          return [
+//        '----- Forwarded Message -----',
+              '- Reply above this line to leave a comment -',
+              '-- REPLY ABOVE THIS LINE --',
+              '-- REPLY ABOVE THIS LINE',
+              'REPLY ABOVE THIS LINE --',
+              '-- Reply above this line --',
+              '-----Original Message-----',
+              '----- Original Message -----',
+              '-- ODGOVORI ODJE --',
+              '-------- Original message --------',
+          ];
+      }
+
+      /**
+       * Return regex message splitters
+       *
+       * @return array
+       */
+      protected function getRegexMessageSplitters()
+      {
+          return [
+              '/On(.*?)wrote\:(.*?)/is',
+              '/^Am(.*?)schrieb(.*?)/is',
+          ];
+      }
 
     /**
      * Chack if string is regular expression
@@ -123,11 +149,6 @@
 
       foreach ($this->body as $line) {
         foreach ($splitters as $splitter) {
-
-          if(!$this->isRegex($splitter)) {
-            $splitter = '/'.$splitter.'/';
-          }
-
           if (preg_match($splitter, $line)) {
             if ($trim_previous_lines == 0) {
               $this->body = $stripped;

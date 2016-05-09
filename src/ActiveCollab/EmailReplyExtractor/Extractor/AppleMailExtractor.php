@@ -11,7 +11,7 @@
      */
     protected function processLines()
     {
-      $splitters = $this->getOriginalMessageSplitters();
+      $splitters = $this->getAllMessageSplitters();
 
       if (!empty($splitters)) {
         $this->stripOriginalMessage($splitters);
@@ -39,9 +39,9 @@
      *
      * @return array
      */
-    protected function getOriginalMessageSplitters()
+    protected function getAllMessageSplitters()
     {
-      return array_merge(parent::getOriginalMessageSplitters(), [
+      return array_merge(parent::getAllMessageSplitters(), [
         '/\-------------------------/is',
       ]);
     }
