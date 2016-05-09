@@ -11,7 +11,7 @@ class AppleCloudMailExtractor extends Extractor
    */
   protected function processLines()
   {
-    $splitters = $this->getOriginalMessageSplitters();
+    $splitters = $this->getAllMessageSplitters();
 
     if (!empty($splitters)) {
       $this->stripOriginalMessage($splitters);

@@ -34,9 +34,9 @@ final class OutlookExtractor extends Extractor
      *
      * @return array
      */
-    protected function getOriginalMessageSplitters()
+    protected function getAllMessageSplitters()
     {
-        return array_merge(parent::getOriginalMessageSplitters(), [
+        return array_merge(parent::getAllMessageSplitters(), [
             '/\-------------------------/is',
         ]);
     }
