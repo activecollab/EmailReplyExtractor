@@ -400,7 +400,7 @@
       // other table tags
       $plain = (string) preg_replace('/<td[^>]*>(.*?)<\/td>/i', "\t\\1\n", $plain); // <td>
       $plain = (string) preg_replace_callback('/<th[^>]*>(.*?)<\/th>/i', function($matches) {
-        return "\t\t" . mb_strtoupper($matches) . "\n";
+        return "\t\t" . mb_strtoupper($matches[0]) . "\n";
       }, $plain); // <th>
 
       // list elements
