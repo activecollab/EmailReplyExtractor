@@ -149,11 +149,11 @@
     private static function getHeadersRelevantForMailerDetection(array $headers)
     {
       return self::filterHeaders([
-        'x-mailer' => $headers['x-mailer'],
-        'message-id' => $headers['message_id'],
-        'received' => $headers['Received'],
-        'mime-version' => $headers['Mime-Version'],
-        'user-agent' => $headers['User-Agent'],
+        'x-mailer' => !empty($headers['x-mailer']) ? $headers['x-mailer'] : '',
+        'message-id' => !empty($headers['message_id']) ? $headers['message_id'] : '',
+        'received' => !empty($headers['Received']) ? $headers['Received'] : '',
+        'mime-version' => !empty($headers['Mime-Version']) ? $headers['Mime-Version'] : '',
+        'user-agent' => !empty($headers['User-Agent']) ? $headers['User-Agent'] : '',
       ]);
     }
 
