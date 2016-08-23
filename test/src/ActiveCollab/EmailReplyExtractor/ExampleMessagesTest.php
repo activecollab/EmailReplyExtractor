@@ -77,6 +77,8 @@
           return "Ahoy,\nOvde sam opalio novi red.\n\nEvo još jedan prazan, i novi red.";
         case 'latin_unicode_01.eml':
           return 'Šćućurih se u čaši povrh džačića.';
+        case 'outlook_2010_long_signature.eml':
+          return "Hi, this is a test comment please disregard it\n\nWe are testing the reply by email commenting here";
         case 'outlook_2013.eml':
           return 'Test from my Outlook.';
         case 'outlook_mac_2015.eml':

@@ -20,11 +20,6 @@ final class OutlookExtractor extends Extractor
 
                     return;
                 }
-
-                // Should signature be longer than 8 lines?
-                if ($x > 8) {
-                    return;
-                }
             }
         }
     }
@@ -42,6 +37,16 @@ final class OutlookExtractor extends Extractor
     }
 
     /**
+     * Process body text
+     */
+    protected function processLines()
+    {
+        parent::processLines();
+        $this->stripSignature();
+    }
+
+
+    /**
      * Strip default Outlook for Mac signature.
      *
      * @param string $html
@@ -51,6 +56,7 @@ final class OutlookExtractor extends Extractor
     public static function toPlainText($html)
     {
         $html = preg_replace('/<div id="MAC_OUTLOOK_SIGNATURE".+<\/div>/', '', $html);
+        $html = preg_replace('/<link[^>]*>/i', '', $html);
 
         return parent::toPlainText($html);
     }
