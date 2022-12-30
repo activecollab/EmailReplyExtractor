@@ -202,14 +202,14 @@
     function stripUnwantedText(array $unwanted_text_patterns) {
       foreach ($unwanted_text_patterns as $unwanted_text_pattern) {
         list ($unwanted_text, $cut_line) = self::getLinesFromEnd($this->body, 1, true);
-        $unwanted_text = trim(implode(null, $unwanted_text));
+        $unwanted_text = trim(implode('', $unwanted_text));
         if (preg_match($unwanted_text_pattern, $unwanted_text)) {
           $this->body = array_splice($this->body, 0, $cut_line);
           return;
         }
 
         list ($unwanted_text, $cut_line) = self::getLinesFromEnd($this->body, 2, true);
-        $unwanted_text = trim(implode(null, $unwanted_text));
+        $unwanted_text = trim(implode('', $unwanted_text));
         if (preg_match($unwanted_text_pattern, $unwanted_text)) {
           $this->body = array_splice($this->body, 0, $cut_line);
           return;
