@@ -15,7 +15,7 @@
       // strip default signature
       if ($match_string) {
         list ($default_signature, $cut_line) = self::getLinesFromEnd(1);
-        $default_signature = implode(null, $default_signature);
+        $default_signature = implode('', $default_signature);
         if (preg_match('/' . $match_string . '/is', $default_signature)) {
           $this->body= array_splice($this->body, 0, $cut_line);
         }
