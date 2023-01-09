@@ -10,6 +10,11 @@
   abstract class Extractor
   {
     /**
+     * @var string
+     */
+    private $body;
+    
+    /**
      * @var Parser
      */
     private $parser;
