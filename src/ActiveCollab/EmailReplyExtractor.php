@@ -1,7 +1,7 @@
 <?php
   namespace ActiveCollab;
 
-  use eXorus\PhpMimeMailParser\Parser, ActiveCollab\EmailReplyExtractor\Extractor\Extractor;
+  use PhpMimeMailParser\Parser, ActiveCollab\EmailReplyExtractor\Extractor\Extractor;
 
   /**
    * @package ActiveCollab
