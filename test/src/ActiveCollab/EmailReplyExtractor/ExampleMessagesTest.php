@@ -15,7 +15,7 @@
     /**
      * Set up test case
      */
-    public function setUp()
+    public function setUp(): void
     {
       parent::setUp();
     }
@@ -24,7 +24,7 @@
     /**
      * Tear down test case
      */
-    function tearDown() {
+    protected function tearDown(): void {
       parent::tearDown();
     }
 

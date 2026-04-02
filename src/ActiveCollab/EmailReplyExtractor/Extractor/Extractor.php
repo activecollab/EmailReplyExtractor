@@ -2,7 +2,7 @@
   namespace ActiveCollab\EmailReplyExtractor\Extractor;
 
   use ActiveCollab\EmailReplyExtractor;
-  use eXorus\PhpMimeMailParser\Parser;
+  use PhpMimeMailParser\Parser;
 
   /**
    * @package ActiveCollab\Extractor
@@ -12,7 +12,7 @@
     /**
      * @var string
      */
-    private $body;
+    public $body;
     
     /**
      * @var Parser
